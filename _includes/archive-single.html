@@ -1,0 +1,44 @@
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | absolute_url }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
+    </h2>
+    <p class="page__meta">
+      {% if page.date %}
+      <span><i class="fa fa-calendar"></i> {{ page.date | date: "%d/%m/%Y" }}</span>
+      {% endif %}
+      {% if page.author %}
+      <span><i class="fa fa-user"></i> {{ site.data.authors[page.author].name }}</span>
+      {% endif %}
+      {% if page.read_time %}
+        <span><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+      {% endif %}
+    </p>
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 250 }}</p>{% endif %}
+
+    <a href="{{ post.url | absolute_url }}" class="btn btn--light-outline btn--small">{{ site.data.ui-text[site.locale].read_more | default: "Read More" }}</a>
+  </article>
+</div>

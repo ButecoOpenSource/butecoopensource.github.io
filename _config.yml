@@ -1,0 +1,177 @@
+minimal_mistakes_skin    : 'air' # 'air', 'contrast', 'dark', 'dirt', 'mint', 'sunrise'
+
+# Site Settings
+locale                   : 'pt-BR'
+title                    : 'Buteco Open Source'
+title_separator          : '-'
+name                     : 'Buteco Open Source'
+description              :
+logo                     : '/assets/images/logo-small.png'
+url                      : # the base hostname & protocol for your site e.g. 'https://mmistakes.github.io'
+baseurl                  : # the subpath of your site, e.g. '/blog'
+repository               : 'ButecoOpenSource/butecoopensource.github.io'
+teaser                   : # path of fallback teaser image, e.g. '/assets/images/500x300.png'
+words_per_minute         : 150
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               : 'butecopensource'
+facebook:
+  username               : 'butecopensource'
+  app_id                 : 978415925526836
+  publisher              : 978415925526836
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : 'Organization' # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+excerpt_separator: <!--more-->
+
+analytics:
+  google_tracking_id: 'UA-55693832-1'
+share:
+  addthis: 'ra-56269d97a8b5a42b'
+comments:
+  disqus_shortname: 'butecoopensource'
+ads:
+  adsense:
+    client_id: 'ca-pub-6625957038449899'
+    sidebar_slot: 2978693162
+    archive_slot: 1501959967
+    home_slot: 6071760365
+    single_slot: 1501959967
+
+# Site Author
+author:
+  name             : 'Buteco Open Source'
+  avatar           : '/assets/images/logo.png'
+  bio              :
+  location         :
+  email            : 'contato@butecopensource.org'
+  uri              :
+  bitbucket        :
+  flickr           :
+  facebook         : 'butecopensource'
+  github           : 'ButecoOpenSource'
+  gitlab           :
+  google_plus      : 'ButecoOpenSourceBlog'
+  linkedin         :
+  pinterest        :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          : 'butecopensource'
+  youtube          : 'UCufXNYRURPEpF7uRDig5SDw'
+
+
+# Reading Files
+include:
+  - _pages
+exclude:
+  - '*.sublime-project'
+  - '*.sublime-workspace'
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - gulpfile.js
+  - LICENSE
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+encoding: 'utf-8'
+markdown_ext: 'markdown,mkdown,mkdn,mkd,md'
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: '\n\n'
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:permalink
+paginate: 10
+paginate_path: /page:num/
+timezone: America/Sao_Paulo
+
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+category_archive:
+  type: liquid
+  path: /categorias/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true

@@ -1,0 +1,45 @@
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" %}
+      {% if teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | absolute_url }}"
+          {% endif %}
+          alt="{{ title }}">
+      </div>
+      {% else if post.image %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if post.image contains "://" %}
+            "{{ post.image }}"
+          {% else %}
+            "{{ post.image | absolute_url }}"
+          {% endif %}
+          alt="{{ title }}">
+      </div>
+      {% endif %}
+    {% endif %}
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
+    </h2>
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 250 }}</p>{% endif %}
+
+    <a href="{{ post.url | absolute_url }}" class="btn btn--light-outline btn--small">{{ site.data.ui-text[site.locale].read_more | default: "Read More" }}</a>
+  </article>
+</div>

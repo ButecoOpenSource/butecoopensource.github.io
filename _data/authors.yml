@@ -1,0 +1,154 @@
+active_authors:
+  - alexandrevicenzi
+  - guilhermevanz
+  - jonathanaschweder
+  - marcooliveira
+  - marcossouza
+alexandrevicenzi:
+  name: 'Alexandre Vicenzi'
+  avatar: 'https://www.gravatar.com/avatar/0750140493ecb013d6166d59a6d83e44?s=200'
+  job: 'Software Engineer'
+  bio:
+  email: 'contato@alexandrevicenzi.com'
+  uri: 'http://www.alexandrevicenzi.com'
+  facebook: 'alexandre.vicenzi'
+  github: 'alexandrevicenzi'
+  google_plus: 'AlexandreVicenzi'
+  linkedin: 'alexandrevicenzi'
+  twitter: 'alxvicenzi'
+brunopiske:
+  name: 'Bruno Piske'
+  avatar: 'https://i.imgur.com/vDXV9Ka.png'
+  job:
+  bio:
+  email:
+  uri:
+  facebook:
+  github:
+  google_plus:
+  linkedin:
+  twitter:
+buteco:
+  name: 'Equipe Buteco Open Source'
+  avatar: '/assets/images/logo.png'
+  job:
+  bio:
+  email: 'contato@butecopensource.org'
+  uri:
+  facebook: 'butecopensource'
+  github: 'ButecoOpenSource'
+  google_plus: 'ButecoOpenSourceBlog'
+  instagram:
+  linkedin:
+  pinterest:
+  tumblr:
+  twitter: 'butecopensource'
+  youtube: 'UCufXNYRURPEpF7uRDig5SDw'
+camilastadnik:
+  name: 'Camila Stadnik'
+  avatar: 'https://i.imgur.com/vDXV9Ka.png'
+  job:
+  bio:
+  email:
+  uri:
+  facebook:
+  github:
+  google_plus:
+  linkedin:
+  twitter:
+daniel_magevski:
+  name: 'Daniel Magevski'
+  avatar: 'https://i.imgur.com/vDXV9Ka.png'
+  job:
+  bio:
+  email:
+  uri:
+  facebook:
+  github:
+  google_plus:
+  linkedin:
+  twitter:
+dsantos:
+  name: 'Douglas Santos'
+  avatar: 'https://i.imgur.com/vDXV9Ka.png'
+  job: 'Desenvolvedor de Software/Sistemas'
+  bio:
+  email:
+  uri:
+  facebook:
+  github:
+  google_plus:
+  linkedin:
+  twitter:
+guilherme:
+  name: 'Guilherme'
+  avatar: 'https://i.imgur.com/vDXV9Ka.png'
+  job:
+  bio:
+  email:
+  uri:
+  facebook:
+  github:
+  google_plus:
+  linkedin:
+  twitter:
+guilhermevanz:
+  name: 'José Guilherme Vanz'
+  avatar: 'http://jvanz.com/images/avatar.jpg'
+  job: 'Software Engineer'
+  bio:
+  email:
+  uri: 'https://jvanz.com/'
+  facebook:
+  github:
+  google_plus:
+  linkedin:
+  twitter:
+jonathanaschweder:
+  name: 'Jonathan André Schweder'
+  avatar: 'https://avatars1.githubusercontent.com/u/6409113?v=2&s=200'
+  job: 'Desenvolvedor Web'
+  bio:
+  email: 'jonathanschweder@gmail.com'
+  uri: 'http://jaschtech.info/'
+  facebook: 'jonathan.andreschweder'
+  github: 'jaschweder'
+  google_plus: 'JonathanAndr%C3%A9Schweder'
+  linkedin: 'jaschweder'
+  twitter: 'jonathan_schw'
+marcooliveira:
+  name: 'Marco Carvalho de Oliveira'
+  avatar: 'https://i.imgur.com/vDXV9Ka.png'
+  job: 'Gerente de TI'
+  bio:
+  email:
+  uri: 'http://demoncyber.wordpress.com/'
+  facebook: 'marco.c.oliveira.5'
+  github:
+  google_plus:
+  linkedin: 'marco-carvalho-de-oliveira-86a52178'
+  twitter: 'demoncyber'
+marcossouza:
+  name: 'Marcos Paulo de Souza'
+  avatar: 'https://lh6.googleusercontent.com/-R35uCFFUd6k/AAAAAAAAAAI/AAAAAAAAAG4/XdGwaMJattA/s120-c/photo.jpg'
+  job:
+  bio: 'Software Engineer'
+  email:
+  uri:
+  facebook: 'MarcosPauloSouzaOS'
+  github: 'marcosps'
+  google_plus: 'MarcosSouza'
+  linkedin: 'marcospsouza'
+  twitter:
+pedrojefferson:
+  name: 'Pedro Jefferson'
+  avatar: 'https://i.imgur.com/vDXV9Ka.png'
+  job:
+  bio:
+  email:
+  uri:
+  facebook:
+  github:
+  google_plus:
+  linkedin:
+  twitter:

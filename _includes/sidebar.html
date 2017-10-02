@@ -1,0 +1,40 @@
+<div class="sidebar sticky">
+  <form class="search-form" target="_blank" action="https://cse.google.com/cse">
+    <input type="text" name="q" placeholder="Pesquisar">
+    <input type="hidden" name="cx" value="006529162228150198964:iuf1_f76vhi">
+    <button type="submit" class="btn btn--inverse"><i class="fa fa-search"></i></button>
+  </form>
+
+  {% if site.ads.adsense %}
+  <div class="ads-sidebar">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="{{ site.ads.adsense.client_id }}"
+         data-ad-slot="{{ site.ads.adsense.sidebar_slot }}"
+         data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+  {% endif %}
+
+  {% if page.sidebar %}
+    {% for s in page.sidebar %}
+      {% if s.image %}
+        <img src=
+        {% if s.image contains "://" %}
+          "{{ s.image }}"
+        {% else %}
+          "{{ s.image | absolute_url }}"
+        {% endif %}
+        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+    {% endfor %}
+    {% if page.sidebar.nav %}
+      {% include nav_list nav=page.sidebar.nav %}
+    {% endif %}
+  {% endif %}
+</div>

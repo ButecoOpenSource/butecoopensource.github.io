@@ -1,0 +1,30 @@
+main:
+  - title: 'Home'
+    url: /
+    icon: 'fa-home'
+  - title: 'Equipe'
+    url: /equipe/
+    icon: 'fa-users'
+  - title: 'Anuncie conosco'
+    url: /anuncie-conosco/
+    icon: 'fa-bullhorn'
+  - title: 'Envie seu artigo'
+    url: /envio-de-artigo/
+    icon: 'fa-upload'
+  - title: 'Sobre'
+    url: /sobre/
+    icon: 'fa-question-circle'
+
+footer:
+  - title: 'Termos de Uso'
+    url: /termos-de-uso/
+    icon: 'fa-file-text-o'
+  - title: 'Privacidade'
+    url: /politica-de-privacidade/
+    icon: 'fa-user-secret'
+  - title: 'Contato'
+    url: /contato/
+    icon: 'fa-phone'
+  - title: 'RSS'
+    url: /feed.xml
+    icon: 'fa-rss'
