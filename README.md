@@ -11,7 +11,7 @@ todos os artigos com data anterior a 2017 são frutos da migração do Wordpress
 ### Diretórios
 
 | Nome | Descrição |
-|:-:||:-:|
+|:----:|:---------:|
 | _data         | Configurações |
 | _includes     | Tema |
 | _layouts      | Tema |
