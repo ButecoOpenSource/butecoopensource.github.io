@@ -55,3 +55,43 @@ Substitua os items acima de acordo com o seu artigo.
 
 Você pode usar **Markdown** para escrever o seu artigo.
 ```
+
+## Rodando o site localmente
+
+Você precisa ter instalado o Ruby 2.1 ou superior.
+
+Instale o Jekyll:
+
+`gem install jekyll bundler`
+
+Instale as dependências do blog.
+
+`bundle install`
+
+Execute o blog com o comando:
+
+`jekyll serve`
+
+Acesse:
+
+[http://localhost:4000](http://localhost:4000)
+
+Para mais informações consulte a documentação do [Jekyll](https://jekyllrb.com/)
+
+## Licença de Conteúdo
+
+![cc-by-sa](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+Os artigos estão sob a licença [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+## Licença de Código
+
+Os códigos fontes dos artigos estão sob licença MIT, exceto quando indicado outra no próprio artigo.
+
+## Licença do código fonte do blog
+
+Entende-se como código fonte do blog o tema e seus plugins.
+
+O tema utilizado pelo Buteco Open Source é baseado no [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/) e este esta sob licença MIT, bem como a adpatação feita pelo Buteco Open Source.
+
+O Jekyll e seus respectivos plugins possuem licença própria, para mais informações consulte os projetos em questão.
