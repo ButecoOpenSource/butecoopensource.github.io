@@ -2,7 +2,7 @@
 layout: wordpress
 title: Debugando apps híbridos com o Google Chrome Remote Device
 date: 2017-10-06 11:48:30
-author: alinebezzoco
+author: bezzocoaline
 permalink: /debugando-apps-hibridos-com-o-google-chrome-remote-device/
 categories:
   - Tutoriais
