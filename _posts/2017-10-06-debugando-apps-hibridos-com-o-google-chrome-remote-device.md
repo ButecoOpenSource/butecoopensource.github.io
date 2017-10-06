@@ -12,6 +12,7 @@ tags:
   - apps
   - remote device
   - desenvolvimento mobile
+  - dev
 
 ---
 
