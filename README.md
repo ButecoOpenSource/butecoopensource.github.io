@@ -2,6 +2,10 @@
 
 O Buteco Open Source é um blog feito por, e para pessoas que gostam de compartilhar suas experiências com software livre. Os principais temas abordados são: GNU/Linux, Software Livre, Sistemas Embarcados, Redes de Computadores e Linguagens de Programação.
 
+## Slack
+
+Entre em contato conosco através do [Slack](https://buteco-slack.herokuapp.com/).
+
 ## Entendendo a estrutura do projeto
 
 Hoje o blog utiliza o Jekyll como meio de blog.
