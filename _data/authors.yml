@@ -9,11 +9,11 @@ alexandrevicenzi:
   avatar: 'https://www.gravatar.com/avatar/0750140493ecb013d6166d59a6d83e44?s=200'
   job: 'Software Engineer'
   bio:
-  email: 'contato@alexandrevicenzi.com'
-  uri: 'http://www.alexandrevicenzi.com'
-  facebook: 'alexandre.vicenzi'
+  email:
+  uri:
+  facebook:
   github: 'alexandrevicenzi'
-  google_plus: 'AlexandreVicenzi'
+  google_plus:
   linkedin: 'alexandrevicenzi'
   twitter: 'alxvicenzi'
 brunopiske:

@@ -5,11 +5,11 @@ main:
   - title: 'Equipe'
     url: /equipe/
     icon: 'fa-users'
-  - title: 'Anuncie conosco'
-    url: /anuncie-conosco/
-    icon: 'fa-bullhorn'
-  - title: 'Envie seu artigo'
-    url: /envio-de-artigo/
+  # - title: 'Anuncie conosco'
+  #   url: /anuncie-conosco/
+  #   icon: 'fa-bullhorn'
+  # - title: 'Envie seu artigo'
+  #   url: /envio-de-artigo/
     icon: 'fa-upload'
   - title: 'Sobre'
     url: /sobre/

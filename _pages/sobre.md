@@ -8,10 +8,14 @@ related: false
 share: false
 ---
 
-Iniciamos nossas atividades em setembro de 2014 e estamos determinados a fomentar a ideologia do software livre na comunidade brasileira, compartilhando conteúdo de qualidade e o compromisso de nossa equipe com seus leitores.
+Iniciamos nossas atividades em setembro de 2014 e encerramos em setembro de 2016.
 
-O **Buteco Open Source** é um blog feito por, e para pessoas que gostam de compartilhar suas experiências com software livre. Os principais temas abordados são: GNU/Linux, Software Livre, Sistemas Embarcados, Redes de Computadores e Linguagens de Programação.
+Devido ao encerramento das atividades alguns dos links no site podem estar quebrados, bem como comentários não são mais respondidos.
+O site continua no ar apenas para manter o conteúdo que foi gerado que ainda pode ser útil para alguns leitores.
 
-O conteúdo do site é criado a partir de pesquisas, experiências e conhecimentos de seus membros e disponibilizado sobre a licença _Creative Commons - Atribuição 4.0_ _Internacional_, e temos ainda canais para que nossos leitores possam enviar sugestões de melhorias, criticas, comentários e seus próprios artigos e experiências. 
+Nossa missão foi fomentar a ideologia do software livre na comunidade brasileira, compartilhando conteúdo de qualidade e o compromisso de nossa equipe com seus leitores.
 
-**_Equipe Buteco Open Source_** [contato@butecopensource.org](mailto:contato@butecopensource.org)
+O Buteco Open Source foi um blog feito por, e para pessoas que gostam de compartilhar suas experiências com software livre. Os principais temas abordados são: GNU/Linux, Software Livre, Sistemas Embarcados, Redes de Computadores e Linguagens de Programação.
+
+O conteúdo do site foi criado a partir de pesquisas, experiências e conhecimentos de seus membros e disponibilizado sobre a licença _Creative Commons - Atribuição 4.0_ _Internacional_, e temos ainda canais para que nossos leitores possam enviar sugestões de melhorias, criticas, comentários e seus próprios artigos e experiências. 
+

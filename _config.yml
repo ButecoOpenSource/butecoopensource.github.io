@@ -56,21 +56,21 @@ author:
   avatar           : '/assets/images/logo.png'
   bio              :
   location         :
-  email            : 'contato@butecopensource.org'
+  email            :
   uri              :
   bitbucket        :
   flickr           :
-  facebook         : 'butecopensource'
+  facebook         :
   github           : 'ButecoOpenSource'
   gitlab           :
-  google_plus      : 'ButecoOpenSourceBlog'
+  google_plus      :
   linkedin         :
   pinterest        :
   stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : 'butecopensource'
-  youtube          : 'UCufXNYRURPEpF7uRDig5SDw'
+  twitter          :
+  youtube          :
 
 
 # Reading Files
