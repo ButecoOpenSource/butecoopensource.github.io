@@ -2,7 +2,7 @@
 layout: wordpress
 title: Lançada tela capacitiva oficial para Raspberry Pi
 date: 2015-09-10 22:44:20
-author: guilherme
+author: buteco
 permalink: /lancada-tela-capacitiva-oficial-para-raspberry-pi/
 categories:
   - Hardware / DIY

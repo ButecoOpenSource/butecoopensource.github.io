@@ -2,36 +2,56 @@
 layout: default
 ---
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page-image.html %}
-{% endif %}
-
-<div id="main" role="main">
-  {% include sidebar.html %}
-
-  <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
-    {% endunless %}
-
-    {% for post in paginator.posts %}
-      {% include archive-single.html %}
-    {% endfor %}
-
-    {% if site.ads.adsense %}
-    <div class="ads-single">
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="{{ site.ads.adsense.client_id }}"
-           data-ad-slot="{{ site.ads.adsense.home_slot }}"
-           data-ad-format="auto"></ins>
-      <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-    </div>
+<div class="home-page">
+  <aside class="banner-left">
+    <!-- ads -->
+    {% if site.ads.google_id and site.ads.home.right %}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="{{ site.ads.google_id }}"
+         data-ad-slot="{{ site.ads.home.left }}"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
     {% endif %}
+  </aside>
 
-    {% include paginator.html %}
+  <div id="main" role="main">
+    {% include sidebar.html %}
+
+    <div class="archives-home">
+      {{ content }}
+
+      {% if paginator %}
+        {% assign posts = paginator.posts %}
+      {% else %}
+        {% assign posts = site.posts %}
+      {% endif %}
+
+      {% for post in posts %}
+        {% include archive-single.html %}
+      {% endfor %}
+
+      {% include paginator.html %}
+    </div>
   </div>
+
+  <aside class="banner-right">
+    <!-- ads -->
+    {% if site.ads.google_id and site.ads.home.right %}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="{{ site.ads.google_id }}"
+         data-ad-slot="{{ site.ads.home.right }}"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    {% endif %}
+  </aside>
 </div>

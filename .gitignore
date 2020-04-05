@@ -14,7 +14,7 @@
 _site/
 .sass-cache/
 .jekyll-metadata
-
+.jekyll-cache
 
 # Documentation cache and generated files:
 /.yardoc/

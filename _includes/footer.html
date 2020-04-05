@@ -1,47 +1,57 @@
-<div class="greedy-nav">
-  <ul class="visible-links">
-    {% for link in site.data.navigation.footer %}
-      {% if link.url contains 'http' %}
-        {% assign domain = '' %}
-      {% else %}
-        {% assign domain = site.url | append: site.baseurl %}
-      {% endif %}
-      <li class="masthead__menu-item">
-        <a href="{{ domain }}{{ link.url }}">
-          {% if link.icon %}
-            <span class="fa {{ link.icon }}"></span>
-          {% endif %}
-          {{ link.title }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-
 <div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+  <ul class="social-icons footer-links-left">
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li>
+            <a href="{{ link.url }}" rel="nofollow noopener noreferrer">
+              <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
     {% endif %}
 
-    {% if site.author.twitter %}
-      <li><a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-    {% endif %}
-
-    {% if site.author.facebook %}
-      <li><a href="https://facebook.com/{{ site.author.facebook }}"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-    {% endif %}
-
-    {% if site.author.google_plus %}
-      <li><a href="https://plus.google.com/+{{ site.author.google_plus }}"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-    {% endif %}
-
-    {% if site.author.youtube %}
-      <li><a href="https://www.youtube.com/channel/{{ site.author.youtube }}"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
-    {% endif %}
-
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}"><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>
+    <li>
+      <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}">
+        <i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}
+      </a>
+    </li>
   </ul>
+
+  {% assign footer = site.data.navigation.footer %}
+
+  {% if footer %}
+    <ul class="footer-links-right">
+    {% for link in footer %}
+      {% if link.title and link.url %}
+        {% comment %} internal/external URL check {% endcomment %}
+        {% if link.url contains "://" %}
+          {% assign link_url = link.url %}
+        {% else %}
+          {% assign link_url = link.url | relative_url %}
+        {% endif %}
+        <li>
+          <a href="{{ link_url }}" rel="nofollow noopener noreferrer">
+            <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.title }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  {% endif %}
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">
+  <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.pt">
+    <img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/>
+  </a>
+
+  <br>
+
+  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+
+  {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>
+  &amp;
+  <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+</div>

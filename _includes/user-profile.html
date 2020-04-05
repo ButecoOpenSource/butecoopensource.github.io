@@ -1,0 +1,118 @@
+<div class="user__profile" itemscope itemtype="https://schema.org/Person">
+  <div class="user__avatar">
+    <img src="{{ user.avatar | default: '/assets/images/profile.png' | relative_url }}" alt="{{ user.name }}" itemprop="image">
+  </div>
+
+  <div class="user__info">
+    <div class="user__content">
+      <h3 class="user__name" itemprop="name">{{ user.name }}</h3>
+
+      {% if user.bio %}
+        <div class="user__bio" itemprop="description">
+          {{ user.bio | markdownify }}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="user__urls">
+      <ul class="social-icons">
+        {% if user.uri %}
+          <li>
+            <a href="{{ user.uri }}" itemprop="url" title="{{ site.data.ui-text[site.locale].website_label | default: 'Website' }}">
+              <i class="fas fa-fw fa-link" aria-hidden="true"></i>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if user.email %}
+          <li>
+            <a href="mailto:{{ user.email }}" title="{{ site.data.ui-text[site.locale].email_label | default: 'Email' }}">
+              <meta itemprop="email" content="{{ user.email }}" />
+              <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if user.twitter %}
+          <li>
+            <a href="https://twitter.com/{{ user.twitter }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="Twitter">
+              <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if user.facebook %}
+          <li>
+            <a href="https://www.facebook.com/{{ user.facebook }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="Facebook">
+              <i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if user.linkedin %}
+          <li>
+            <a href="https://www.linkedin.com/in/{{ user.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="LinkedIn">
+              <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if user.github %}
+          <li>
+            <a href="https://github.com/{{ user.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="GitHub">
+              <i class="fab fa-fw fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if user.gitlab %}
+          <li>
+            <a href="https://gitlab.com/{{ user.gitlab }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="GitLab">
+              <i class="fab fa-fw fa-gitlab" aria-hidden="true"></i>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if user.bitbucket %}
+          <li>
+            <a href="https://bitbucket.org/{{ user.bitbucket }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="Bitbucket">
+              <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if user.stackoverflow %}
+          <li>
+            <a href="https://stackoverflow.com/users/{{ user.stackoverflow }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="Stack Overflow">
+              <i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if user.steam %}
+          <li>
+            <a href="https://steamcommunity.com/id/{{ user.steam }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="Steam">
+              <i class="fab fa-fw fa-steam" aria-hidden="true"></i>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if user.youtube %}
+          {% if user.youtube contains "://" %}
+            <li>
+              <a href="{{ user.youtube }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="YouTube">
+                <i class="fab fa-fw fa-youtube" aria-hidden="true"></i>
+              </a>
+            </li>
+          {% else %}
+            <li>
+              <a href="https://www.youtube.com/user/{{ user.youtube }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="YouTube">
+                <i class="fab fa-fw fa-youtube" aria-hidden="true"></i>
+              </a>
+            </li>
+          {% endif %}
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</div>

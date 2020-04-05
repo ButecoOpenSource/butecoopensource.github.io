@@ -11,34 +11,31 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | absolute_url }}"
-          {% endif %}
-          alt="">
+        <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
-      <a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a>
+        <a href="{{ post.url | relative_url }}">
+          <i class="fas fa-link" aria-hidden="true" title="permalink"></i>
+          <span class="sr-only">Permalink</span>
+        </a>
+      {% else %}
+        <a href="{{ post.url | relative_url }}">{{ title }}</a>
+      {% endif %}
     </h2>
-    <p class="page__meta">
-      {% if page.date %}
-      <span><i class="fa fa-calendar"></i> {{ page.date | date: "%d/%m/%Y" }}</span>
-      {% endif %}
-      {% if page.author %}
-      <span><i class="fa fa-user"></i> {{ site.data.authors[page.author].name }}</span>
-      {% endif %}
-      {% if page.read_time %}
-        <span><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
-      {% endif %}
+    {% if post.read_time %}
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% endif %}
+    {% if post.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 300 }}</p>
+    {% endif %}
+    <p>
+      <a href="{{ post.url | relative_url }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].read_more | default: "Read More" }}</a>
     </p>
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 250 }}</p>{% endif %}
-
-    <a href="{{ post.url | absolute_url }}" class="btn btn--light-outline btn--small">{{ site.data.ui-text[site.locale].read_more | default: "Read More" }}</a>
   </article>
 </div>
