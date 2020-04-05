@@ -217,6 +217,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-algolia
+  - minimal-mistakes-jekyll
   - jemoji
 
 # mimic GitHub Pages with --safe
@@ -227,6 +228,7 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-algolia
+  - minimal-mistakes-jekyll
   - jemoji
 
 # Archives
