@@ -59,9 +59,9 @@ google:
 
 ads:
   google_id: ca-pub-6625957038449899
-  # home:
-  #   left: "1354377606"
-  #   right: "2896837216"
+  home:
+    left: "1354377606"
+    right: "2896837216"
 
 # SEO Related
 google_site_verification :
