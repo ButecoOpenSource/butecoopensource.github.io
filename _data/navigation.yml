@@ -3,22 +3,22 @@ main:
     url: /
     icon: 'fas fa-home'
   - title: 'Equipe'
-    url: /equipe/
+    url: /equipe
     icon: 'fas fa-users'
   - title: 'Anuncie conosco'
-    url: /anuncie-conosco/
+    url: /anuncie-conosco
     icon: 'fas fa-bullhorn'
   - title: 'Envie seu artigo'
-    url: /envio-de-artigo/
+    url: /envio-de-artigo
     icon: 'fas fa-upload'
   - title: 'Sobre'
-    url: /sobre/
+    url: /sobre
     icon: 'fas fa-question-circle'
 
 footer:
   - title: 'Termos de Uso'
-    url: /termos-de-uso/
+    url: /termos-de-uso
     icon: 'fas fa-file-alt'
   - title: 'Privacidade'
-    url: /politica-de-privacidade/
+    url: /politica-de-privacidade
     icon: 'fas fa-user-secret'
