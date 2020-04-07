@@ -1,7 +1,8 @@
 ---
 title: Equipe
 layout: page
-permalink: /equipe/
+permalink: equipe
+classes: wide
 ---
 
 ## Administradores

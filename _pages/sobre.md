@@ -1,7 +1,7 @@
 ---
 title: Sobre
 layout: page
-permalink: /sobre/
+permalink: sobre
 toc: true
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Anuncie conosco
 layout: page
-permalink: /anuncie-conosco/
+permalink: anuncie-conosco
+classes: wide
 ---
 
 Os anúncios em nosso blog funcionam geralmente em forma de artigos patrocinados, onde realizamos um ou mais artigos divulgando sua marca ou produto.

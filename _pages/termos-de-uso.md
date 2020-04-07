@@ -1,7 +1,7 @@
 ---
 title: Termos de Uso
 layout: page
-permalink: /termos-de-uso/
+permalink: termos-de-uso
 toc: true
 ---
 

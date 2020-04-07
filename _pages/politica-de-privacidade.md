@@ -1,13 +1,13 @@
 ---
 title: Política de Privacidade
 layout: page
-permalink: /politica-de-privacidade/
+permalink: politica-de-privacidade
 toc: true
 ---
 
 Sua privacidade é importante para nós. Quando o Buteco Open Source (ou seja, nós) coleta informações sobre você, nossa Política de Privacidade descreve de que forma gerenciamos essas informações.
 
-Este aviso de privacidade se aplica aos websites administrados pelo Buteco Open Source, inclusive os domínios [butecopensource.org](http://blog.butecopensource.org/), [butecopensource.com](http://butecopensource.com) e [buteco.me](http://buteco.me).
+Este aviso de privacidade se aplica aos websites administrados pelo Buteco Open Source, inclusive os domínios, [butecopensource.com.br](http://butecopensource.com.br) e [www.butecopensource.com.br](http://www.butecopensource.com.br).
 
 ##  O que entendemos como "informações pessoais"?
 
