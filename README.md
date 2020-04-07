@@ -2,42 +2,6 @@
 
 O Buteco Open Source é um blog feito por, e para pessoas que gostam de compartilhar suas experiências com software livre.
 
-## Entendendo a estrutura do projeto
-
-Atualmente utilizamos o Jekyll como ferramenta para blog.
-
-Anteriormente utilizava-mos o Wordpress.
-
-Todos os artigos entre 2014 e 2016 são frutos da migração do Wordpress para Jekyll.
-
-### Diretórios
-
-| Nome | Descrição |
-|:----:|:---------:|
-| _data             | Configurações |
-| _includes         | Tema |
-| _layouts          | Tema |
-| _pages            | Páginas |
-| _posts            | Artigos |
-| assets/content    | Arquivos de artigos do Jekyll (Imagens, Videos, etc) |
-| assets/wp-content | Arquivos de artigos do Wordpress (Imagens, Videos, etc) |
-| assets/images     | Tema |
-| assets/css        | Tema |
-
-Para mais informações consulte a documentação do [Jekyll](https://jekyllrb.com/)
-
-## Rodando o site localmente
-
-> Necessário possuir Docker instalado.
-
-Execute o comando:
-
-`docker-compose up`
-
-Acesse:
-
-[http://localhost:4000](http://localhost:4000)
-
 ## Licenças
 
 ### Textos em artigos
