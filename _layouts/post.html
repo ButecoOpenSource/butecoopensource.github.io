@@ -2,4 +2,32 @@
 layout: single
 ---
 
+<!-- ads -->
+{% if site.ads.google_id and site.ads.post.top %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; margin-bottom: 1em;"
+     data-ad-client="{{ site.ads.google_id }}"
+     data-ad-slot="{{ site.ads.post.top }}"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+{% endif %}
+
 {{ content }}
+
+<!-- ads -->
+{% if site.ads.google_id and site.ads.post.bottom %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="{{ site.ads.google_id }}"
+     data-ad-slot="{{ site.ads.post.bottom }}"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+{% endif %}
