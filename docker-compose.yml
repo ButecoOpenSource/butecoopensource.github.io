@@ -2,9 +2,8 @@ version: "3"
 services:
   jekyll:
     image: jekyll/jekyll:latest
-    command: jekyll serve --watch --force_polling --incremental --verbose --livereload --livereload-port 4001
+    command: jekyll serve --watch --limit_posts 15
     ports:
       - 4000:4000
-      - 4001:4001
     volumes:
       - .:/srv/jekyll

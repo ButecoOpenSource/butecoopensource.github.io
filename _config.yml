@@ -62,6 +62,9 @@ ads:
   home:
     left: "1354377606"
     right: "2896837216"
+  post:
+    # top: "4337254852"
+    bottom: "9234551836"
 
 # SEO Related
 google_site_verification :
@@ -277,6 +280,7 @@ defaults:
       share: true
       related: false
       search: true
+      classes: wide
   - scope:
       path: ""
       type: posts
@@ -288,6 +292,19 @@ defaults:
       share: true
       related: false
       search: true
+      classes: wide
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: wordpress
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: false
+      search: true
+      classes: wide
   # _pages
   - scope:
       path: ""
