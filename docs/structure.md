@@ -23,4 +23,4 @@ Todos os artigos entre 2014 e 2016 são frutos da migração do Wordpress para J
 | assets/images     | Tema |
 | assets/css        | Tema |
 
-Para mais informações consulte a documentação do [Jekyll](https://jekyllrb.com/)
+Para mais informações consulte a documentação do [Jekyll](https://jekyllrb.com/).

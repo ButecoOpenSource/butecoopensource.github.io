@@ -1,5 +1,13 @@
 # Documentação
 
+## Envie seu artigo
+
+Para enviar seu artigo siga a [nossa documentação](https://github.com/ButecoOpenSource/butecoopensource.github.io/blob/master/docs/submissions.md).
+
+## Estrutura do projeto
+
+Para entender um pouco mais sobre como o projeto é organizado veja a [nossa documentação](https://github.com/ButecoOpenSource/butecoopensource.github.io/blob/master/docs/structure.md).
+
 ## Rodando o site localmente
 
 > Necessário possuir Docker instalado.
