@@ -8,7 +8,7 @@ title                    : "Buteco Open Source"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Buteco Open Source"
-description              : ""
+description              : "Um blog feito por, e para pessoas que gostam de compartilhar suas experiências com software livre"
 url                      : "https://butecopensource.com.br" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 'ButecoOpenSource/butecoopensource.github.io'
@@ -61,10 +61,10 @@ ads:
   google_id: ca-pub-6625957038449899
   home:
     left: "1354377606"
-    right: "2896837216"
+    right: "6071760365" # 2896837216"
   post:
     # top: "4337254852"
-    bottom: "9234551836"
+    bottom: "2978693162" # "9234551836"
 
 # SEO Related
 google_site_verification :
@@ -79,13 +79,15 @@ facebook:
   username               : butecopensource
   app_id                 : 978415925526836
   publisher              : 978415925526836
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/images/logo.png # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : Organization # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - https://twitter.com/butecopensource
+    - https://github.com/ButecoOpenSource
 
 # Analytics
 analytics:
@@ -102,18 +104,21 @@ author:
   location         : Brasil
   email            : contato@butecopensource.com.br
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:contato@butecopensource.com.br
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://butecopensource.com.br"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: mailto:contato@butecopensource.com.br
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://butecopensource.com.br"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/butecopensource"
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-    #   url: "https://facebook.com/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/c/ButecoOpenSource"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/butecopensource/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ButecoOpenSource"
@@ -127,12 +132,15 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/butecopensource"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: https://www.youtube.com/c/ButecoOpenSource
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/butecopensource/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ButecoOpenSource"
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-    #   url:
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   url:
