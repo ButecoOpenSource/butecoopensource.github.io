@@ -2,7 +2,7 @@
 title: Equipe
 layout: page
 permalink: equipe
-classes: wide
+toc: true
 ---
 
 ## Administradores
