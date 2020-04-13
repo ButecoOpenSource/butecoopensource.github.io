@@ -4,7 +4,7 @@ title: "Estamos de Volta"
 excerpt: "Buteco Open Source de volta a ativa!"
 date: 2020-04-01 08:00:00
 permalink: we-are-back
-author: Jonathan Schweder
+author: buteco
 header:
   overlay_image: /assets/content/capa-we-are-back.jpg
 ---
