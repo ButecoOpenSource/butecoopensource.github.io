@@ -132,12 +132,18 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/butecopensource"
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram-plane"
+      url: "https://t.me/butecopensource"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: https://www.youtube.com/c/ButecoOpenSource
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/butecopensource/"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ButecoOpenSource"
@@ -147,9 +153,9 @@ footer:
     # - label: "Bitbucket"
     #   icon: "fab fa-fw fa-bitbucket"
     #   url:
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url:
+    - label: "Newsletter"
+      icon: "far fa-fw fa-newspaper"
+      url: "https://tinyletter.com/butecopensource"
 
 # Reading Files
 include:
