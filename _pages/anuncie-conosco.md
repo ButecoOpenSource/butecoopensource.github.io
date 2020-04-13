@@ -14,4 +14,4 @@ Para que um artigo seja produdizo é necessário estar de acordo como os temas q
 - Serviços (APIs, plataformas e afims)
 - Livros, cursos ou treinamentos (na aréa de TI)
 
-Para saber detalhes sobre parcerias entre em contato pelo e-mail [contato@butecopensource.com.br](mailto:contato@butecopensource.com.br) com o assunto **Proposta de Parceira**.
+Para mais detalhes sobre parcerias entre em contato pelo e-mail [contato@butecopensource.com.br](mailto:contato@butecopensource.com.br) com o assunto **Proposta de Parceira**.
