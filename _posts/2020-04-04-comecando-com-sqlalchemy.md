@@ -1,8 +1,8 @@
 ---
 layout: wordpress
-title: Começando
+title: Começando com SQL Alchemy
 excerpt: |
-  Começando com SQLAlchemy, acessando bancos relacionais de forma fácil no Python
+  Acessando bancos relacionais e criando modelos ORM de forma fácil no Python
 date: 2020-04-04 19:27:00
 author: jaswdr
 permalink: /comecando-com-sqlalchemy/
