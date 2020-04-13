@@ -4,7 +4,7 @@ layout: page
 permalink: contato
 ---
 
-Entre em contato conosco através do formulário abaixo, pelos email [contato@butecopensource.com.br](mailto:contato@butecopensource.com.br) ou pelo [grupo do Telegram](https://t.me/butecopensource).
+Entre em contato conosco através do formulário abaixo, pelo email [contato@butecopensource.com.br](mailto:contato@butecopensource.com.br) ou pelo [grupo do Telegram](https://t.me/butecopensource).
 
 <form action="https://submit-form.com/uVyXk7USzrTtzJlqrb30l" target="_self" style="background-color: unset;">
    <input type="text" name="email" placeholder="Seu email" required>
