@@ -9,4 +9,6 @@ header:
   overlay_image: /assets/content/capa-we-are-back.jpg
 ---
 
-Anúnciamos que estamos de volta com o Buteco Open Source, teremos várias novidades, fique de olho nas nossas redes sociais para novos posts falando sobre técnologia, programação e muita cerveja!
+Anúnciamos que estamos de volta com o Buteco Open Source, teremos várias novidades.
+
+Fiquem de olho para novos posts falando sobre técnologia, programação e muita cerveja!
