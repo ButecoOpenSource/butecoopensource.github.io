@@ -1,19 +1,20 @@
 <div class="page__footer-follow">
-  <ul class="social-icons footer-links-left" style="font-size: 1.2em;">
-    {% if site.footer.links %}
-      {% for link in site.data.navigation.social %}
-        {% if link.label and link.url %}
-          <li>
-            <a href="{{ link.url }}" rel="nofollow noopener noreferrer" title="{{ link.label }}">
-              <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
+  <ul class="social-icons footer-links-left" style="font-size: 1.25em;">
+    {% for link in site.data.navigation.social %}
+      {% if link.title and link.url %}
+        <li>
+          <a href="{{ link.url }}"
+             rel="nofollow noopener noreferrer"
+             title="{{ link.title }}">
+            <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
 
     <li>
-      <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" title="{{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}">
+      <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"
+         title="{{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}">
         <i class="fas fa-fw fa-rss-square" aria-hidden="true"></i>
       </a>
     </li>
