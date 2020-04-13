@@ -13,9 +13,11 @@ Este aviso de privacidade se aplica aos websites administrados pelo Buteco Open 
 
 Para nós, "informações pessoais" significa as informações que identificam o usuário, como seu nome ou endereço de e-mail.
 
-## Quaisquer outras informações não constituem "informações pessoais".
+## Quaisquer outras informações não constituem "informações pessoais"?
 
-Se suas informações pessoais forem armazenadas em conjunto com outras informações, iremos considerar a combinação como informações pessoais. Se excluirmos todas as informações pessoais de um conjunto de dados, então as informações remanescentes não constituem informações pessoais.
+Se suas informações pessoais forem armazenadas em conjunto com outras informações, iremos considerar a combinação como informações pessoais.
+
+Se excluirmos todas as informações pessoais de um conjunto de dados, então as informações remanescentes não constituem informações pessoais.
 
 ## Como recebemos informações sobre você?
 
@@ -29,19 +31,31 @@ Recebemos informação de você quando:
 
 ## O que fazemos com as suas informações após o seu recebimento?
 
-Quando recebemos informações pessoais, não fazemos uso destas. As únicas informações utilizadas são as estatísticas obtidas através do Google Analytics, e em geral, utilizamos estas informações para melhorar o conteúdo levado até você.
+Quando você nos envia informações pessoais, nós as utilizamos de acordo com sua permissão. Em geral, não usamos suas informações pessoais por um longo período.
 
 ## Quando compartilhamos suas informações com terceiros?
 
-Nós não compartilhamos as suas informações pessoais que se encontram em nossas bases de dados com terceiros ou qualquer outra entidade vinculada ao Buteco Open Source. Declaramos desde já que contabilizamos os números de visitação deste website e de suas páginas subjacentes, inclusive mediante utilização de cookies, de forma a melhorar a qualidade dos mesmos. As análises estatísticas e genéricas sobre o comportamento dos usuários poderão ser livremente partilhadas com terceiros, inclusive com anunciantes.
+Nós não compartilhamos as suas informações pessoais que se encontram em nossas bases de dados com terceiros ou qualquer outra entidade vinculada ao Buteco Open Source.
+
+Declaramos desde já que contabilizamos os números de visitação deste website e de suas páginas subjacentes, inclusive mediante utilização de cookies, de forma a melhorar a qualidade dos mesmos.
+
+As análises estatísticas e genéricas sobre o comportamento dos usuários poderão ser livremente partilhadas com terceiros, inclusive com anunciantes.
 
 ## Como armazenamos e protegemos suas informações pessoais?
 
-Temos um compromisso com a proteção de suas informações pessoais assim que as recebemos. Implementamos medidas de segurança físicas, comerciais e técnicas. Apesar de nossos esforços, se tivermos ciência de uma violação de segurança, iremos notificar nossos usuários, para que possam ser tomadas as medidas cautelares cabíveis. Também não queremos suas informações pessoais por um prazo mais longo do que o necessário. Dessa forma, somente mantemos suas informações pelo prazo suficiente. Quando essas informações não forem mais necessárias, providenciaremos sua destruição, salvo se estivermos obrigados por lei a mantê-las por um prazo mais longo.
+Temos um compromisso com a proteção de suas informações pessoais assim que as recebemos. Implementamos medidas de segurança físicas, comerciais e técnicas. Apesar de nossos esforços, se tivermos ciência de uma violação de segurança, iremos notificar nossos usuários, para que possam ser tomadas as medidas cautelares cabíveis.
+
+Também não queremos suas informações pessoais por um prazo mais longo do que o necessário. Dessa forma, somente mantemos suas informações pelo prazo suficiente. Quando essas informações não forem mais necessárias, providenciaremos sua destruição, salvo se estivermos obrigados por lei a mantê-las por um prazo mais longo.
 
 ## Ligações a websites e serviços de terceiros
 
-O Buteco Open Source possui ligações com outros websites, os quais, a nosso ver, podem conter informações/ferramentas úteis a nós ou aos nossos visitantes. Neste caso a nossa política de privacidade não é aplicada a estes websites e não nos responsabilizamos pela política de privacidade e o conteúdo destes websites. Fazemos uso do Google Analytics para ajudar a analisar o tráfego nos nossos websites. As informações obtidas pelo Google Analytics são usadas nos serviços de publicidade oferecidos pela Google e podem vincular informações de visitas a diversos outros websites. Usamos também o Google Adsense para veicular anúncios durante a sua visita ao nosso website. O Google  pode usar informações (que não incluem o seu nome, endereço, endereço de e-mail ou número de telefone) sobre suas visitas a este e a outros websites a fim de exibir anúncios relacionados a produtos e serviços de seu interesse. Para obter mais informações sobre essa prática e saber como impedir que o Google utilize esses dados, [clique aqui](http://www.google.com/policies/technologies/ads/).
+O Buteco Open Source possui ligações com outros websites, os quais, a nosso ver, podem conter informações/ferramentas úteis a nós ou aos nossos visitantes. Neste caso a nossa política de privacidade não é aplicada a estes websites e não nos responsabilizamos pela política de privacidade e o conteúdo destes websites.
+
+Fazemos uso do Google Analytics para ajudar a analisar o tráfego nos nossos websites. As informações obtidas pelo Google Analytics são usadas nos serviços de publicidade oferecidos pela Google e podem vincular informações de visitas a diversos outros websites.
+
+Usamos também o Google Adsense para veicular anúncios durante a sua visita ao nosso website. O Google pode usar informações (que não incluem o seu nome, endereço, endereço de e-mail ou número de telefone) sobre suas visitas a este e a outros websites a fim de exibir anúncios relacionados a produtos e serviços de seu interesse.
+
+Para obter mais informações sobre como o Google utilize esses dados, [clique aqui](https://policies.google.com/privacy?fg=1&hl=pt-BR).
 
 ## Cookies e identificadores anônimos
 
