@@ -1,7 +1,7 @@
 <div class="page__footer-follow">
   <ul class="social-icons footer-links-left" style="font-size: 1.2em;">
     {% if site.footer.links %}
-      {% for link in site.footer.links %}
+      {% for link in site.data.navigation.social %}
         {% if link.label and link.url %}
           <li>
             <a href="{{ link.url }}" rel="nofollow noopener noreferrer" title="{{ link.label }}">
