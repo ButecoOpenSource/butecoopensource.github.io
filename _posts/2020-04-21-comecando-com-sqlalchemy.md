@@ -1,19 +1,17 @@
 ---
-layout: wordpress
-title: Começando com SQL Alchemy
-excerpt: |
-  Acessando bancos relacionais e criando modelos ORM de forma fácil no Python
-date: 2020-04-04 19:27:00
+layout: post
+title: "Começando com SQL Alchemy"
+excerpt: "Acessando bancos relacionais e criando modelos ORM de forma fácil no Python"
+date: 2020-04-21 12:00:00
+permalink: we-are-back
 author: jaswdr
-permalink: /comecando-com-sqlalchemy/
-image: /assets/wp-content/uploads/2020/04/capa-sqlalchemy.jpg
-categories:
-  - Python
-tags:
-  - database
 ---
 
-​	Diversas aplicaçōes escritas na linguagem Python precisam armazenar dados relacionais, usando bancos de dados como PostgreSQL, MySQL, Oracle e outros, o projeto `sqlalchemy` visa facilitar a conexão e manipulação de registros, veja a seguir como utilizar este projeto.
+Diversas aplicaçōes escritas em Python precisam armazenar dados relacionais, usando bancos de dados como PostgreSQL, MySQL, Oracle e outros.
+
+O projeto `sqlalchemy` visa facilitar a conexão e manipulação de registros.
+
+Veja a seguir como utilizar este projeto.
 
 ## Instalação
 
@@ -23,7 +21,7 @@ Para realizar a instalação do pacote basta executar:
 $ pip install sqlalchemy
 ```
 
-Após finalizar o download e instalação você verificar a instalação pelo python, executando:
+Após finalizar o download e instalação você pode verificar a instalação pelo python, executando:
 
 ```python
 $ python3
@@ -41,9 +39,9 @@ from sqlalchemy import create_engine
 engine = create_engine("sqlite:///file.db")
 ```
 
-No exemplo acima, estamos criando uma instância de `Engine` com o `sqlite`, caso você queira conectar com outro banco, veja a [documentação](https://docs.sqlalchemy.org/en/13/dialects/index.html).
+No exemplo acima, estamos criando uma instância de `Engine` com o `sqlite`, caso você queira conectar com outro banco, veja a [documentação](https://docs.sqlalchemy.org/en/13/dialects/index.html) (em inglês) para mais detalhes.
 
-Uma vez que temos nossa engine podemos começar a criar nossas sessões.
+Uma vez que temos nossa engine podemos começar a criar nossa sessão.
 
 ```python
 from sqlalchemy.orm import sessionmaker
@@ -63,12 +61,12 @@ session.execute('CREATE TABLE users('
 Inserir dados.
 
 ```python
+session.execute("INSERT INTO "users" (id, name, email) VALUES "
+               "(1, 'admin', 'admin@example.com') ")
 session.execute('INSERT INTO "users" (id, name, email) VALUES '
-               '(1, \'admin\', \'admin@example.com\') ')
+               "(2, 'user', 'user@example.com') ")
 session.execute('INSERT INTO "users" (id, name, email) VALUES '
-               '(2, \'user\', \'user@example.com\') ')
-session.execute('INSERT INTO "users" (id, name, email) VALUES '
-               '(3, \'client\', \'client@sample.com\') ')
+               "(3, 'client', 'client@sample.com') ")
 ```
 
 Por fim podemos buscar dados.
@@ -112,13 +110,13 @@ class User(Base):
 
 Como pode-se ver no exemplo, quando se utiliza o ORM do sqlalchemy os atributos da classe são inicializados com instâncias de `sqlalchemy.Column`, no caso estamos criando colunas de "id", "name" e "email", cada um destes atributos será uma coluna na tabela gerada, com opções de `primary_key` para a chave primária da tabela e `nullable` para indicar que os valores são obrigatórios. Além disso o atributo `__tablename__` é obrigatório para indicar o nome da tabela.
 
-Uma vez montado nosso primeiro modelo de usuário podemos gerar toda a estrutura do banco usando um método utilitário da classe `Base` que criamos.
+Uma vez montado nosso primeiro modelo de usuário, podemos agora gerar toda a estrutura do banco usando um método utilitário da classe `Base` que criamos.
 
 ```python
 Base.metadata.create_all(engine)
 ```
 
-Caso o comando acima execute com sucesso é esperado termos agora uma tabela `users` representado pela nossa classe, com isso podemos da mesma forma que anteriormente adicionar alguns usuários.
+Caso o comando acima seja executado com sucesso é esperado termos agora uma tabela `users` representado pela nossa classe, com isso podemos da mesma forma que anteriormente adicionar alguns usuários.
 
 ```python
 admin = User(id=1, name='admin', email='admin@example.com')
@@ -143,7 +141,9 @@ for user in users:
 # client
 ```
 
-Perceba a forma como buscamos os usuários com o método `query` passando como parâmetro a entidade que queremos, no caso `User`, a forma acima irá buscar todos os usuários sem filtro algum, podemos filtrar a busca com o método `filter()`.
+Perceba a forma como buscamos os usuários com o método `query` passando como parâmetro a entidade que queremos, no caso `User`, a forma acima irá buscar todos os usuários sem filtro algum.
+
+Podemos filtrar a busca com o método `filter()`.
 
 ```python
 no_admin_users = session.query(User).filter(User.name != 'admin')
@@ -161,7 +161,7 @@ admin_user = session.query(User).filter(User.name == 'admin').one()
 
 Para retornar apenas um registro podemos utilizar tanto o método `one()` quanto o método `one_or_none()`, a diferença entre os 2 métodos é que o primeiro irá disparar uma exceção caso nenhum registro for encontrado, enquanto o segundo retornará `None`.
 
-> Para saber a lista completo de operadores veja a [documentação](https://docs.sqlalchemy.org/en/13/orm/tutorial.html#common-filter-operators)
+> Para saber a lista completo de operadores veja a [documentação](https://docs.sqlalchemy.org/en/13/orm/tutorial.html#common-filter-operators) (em inglês)
 
 Além de inserir e realizar buscas é possível fazer alterações facilmente, basta utilizar a referência ao objeto, alterar os atributos e adicionar a sessão, conforme o exemplo abaixo.
 
@@ -171,7 +171,9 @@ session.add(admin_user)
 session.commit()
 ```
 
-Dessa forma conseguimos facilmente alterar nosso banco, podemos também excluir os registros com o método `delete()`.
+Dessa forma conseguimos facilmente alterar nosso banco.
+
+Podemos também excluir os registros com o método `delete()`.
 
 ```python
 session.delete(admin_user)
@@ -182,4 +184,6 @@ Seguindo o mesmo padrão, adicionando os objetos que queremos excluir a sessão 
 
 ## Conclusão
 
-O `sqlalchemy` possuí um conjunto de opções que tanto facilitam trabalhar com bancos relacionais como dão flexibilidade de executar comandos SQL ou criar modelos utilizando o pacote ORM. Você já utilizou esse pacote? Utiliza algum outro meio para se comunicar com seu banco? Possuí alguma dúvida? comente abaixo.
+O `sqlalchemy` possuí um conjunto de opções que tanto facilitam trabalhar com bancos relacionais como dão flexibilidade de executar comandos SQL ou criar modelos utilizando o pacote ORM. 
+
+Você já utilizou esse pacote? Utiliza algum outro meio para se comunicar com seu banco? Possuí alguma dúvida? comente abaixo.
