@@ -3,7 +3,7 @@ layout: post
 title: "Começando com SQL Alchemy"
 excerpt: "Acessando bancos relacionais e criando modelos ORM de forma fácil no Python"
 date: 2020-04-21 12:00:00
-permalink: we-are-back
+permalink: comecando-com-sql-alchemy
 author: jaswdr
 ---
 
