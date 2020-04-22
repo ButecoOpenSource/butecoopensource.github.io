@@ -8,6 +8,9 @@ main:
   - title: 'Colabore'
     url: /envio-de-artigo
     icon: 'fas fa-upload'
+  - title: Podcast
+    url: https://buteco.tech/
+    icon: fas fa-microphone-alt
   - title: 'Sobre'
     url: /sobre
     icon: 'fas fa-question-circle'
