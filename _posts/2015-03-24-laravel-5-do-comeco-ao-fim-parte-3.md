@@ -4,7 +4,7 @@ title: Laravel 5 do começo ao fim [parte 3]
 excerpt: |
   Este artigo apresenta a terceira parte de um tutorial sobre o framework PHP Laravel 5, apresentando como usar a parte de criação de model e view do framework
 date: 2015-03-24 20:43:06
-author: jonathanaschweder
+author: jaswdr
 permalink: /laravel-5-do-comeco-ao-fim-parte-3/
 image: /assets/wp-content/uploads/2015/02/Laravel-5.png
 categories:

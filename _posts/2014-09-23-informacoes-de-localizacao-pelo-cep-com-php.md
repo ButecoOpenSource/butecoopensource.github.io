@@ -4,7 +4,7 @@ title: Informações de localização pelo CEP com PHP
 excerpt: |
   Classe para recuperar dados de localização pelo CEP
 date: 2014-09-23 13:30:48
-author: jonathanaschweder
+author: jaswdr
 permalink: /informacoes-de-localizacao-pelo-cep-com-php/
 categories:
   - Desenvolvimento

@@ -4,7 +4,7 @@ title: Lumen um micro-framework baseado no Laravel
 excerpt: |
   O tão esperado Lumen foi finalmente lançado, um projeto baseado no Laravel 5 e que segue a mesma linha dos micro-frameworks Silex e Slim, porém, segundo alguns benchmarks, com desempenho superior. Veja como começar seu projeto usando o recem lançado Lumen!
 date: 2015-04-14 11:37:46
-author: jonathanaschweder
+author: jaswdr
 permalink: /lumen-um-micro-framework-baseado-no-laravel/
 image: /assets/wp-content/uploads/2015/04/lumen-logo-e1429022192118.png
 categories:

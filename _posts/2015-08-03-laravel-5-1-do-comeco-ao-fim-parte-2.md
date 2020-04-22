@@ -4,7 +4,7 @@ title: Laravel 5.1 do começo ao fim, parte 2
 excerpt: |
   Segundo vídeo da série que fala sobre a versão 5.1 do framework PHP Laravel
 date: 2015-08-03 12:00:41
-author: jonathanaschweder
+author: jaswdr
 permalink: /laravel-5-1-do-comeco-ao-fim-parte-2/
 categories:
   - Desenvolvimento

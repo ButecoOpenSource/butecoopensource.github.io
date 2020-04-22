@@ -2,7 +2,7 @@
 layout: wordpress
 title: Gerador de sistemas em PHP usando apenas SQL
 date: 2014-10-12 18:49:38
-author: jonathanaschweder
+author: jaswdr
 permalink: /gerador-de-sistemas-em-php-usando-apenas-sql/
 categories:
   - Desenvolvimento

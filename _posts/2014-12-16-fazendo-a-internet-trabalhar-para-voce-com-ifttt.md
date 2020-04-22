@@ -4,7 +4,7 @@ title: Fazendo a internet trabalhar para você com IFTTT
 excerpt: |
   Fazendo a internet trabalhar para você com IFTTT, conheça o site que poderá lhe ajudar com tarefas massantes ou corriqueiras.
 date: 2014-12-16 08:30:27
-author: jonathanaschweder
+author: jaswdr
 permalink: /fazendo-a-internet-trabalhar-para-voce-com-ifttt/
 image: /assets/wp-content/uploads/2014/12/ifttt-banner.jpg
 categories:

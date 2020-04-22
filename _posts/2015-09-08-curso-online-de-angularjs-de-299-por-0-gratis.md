@@ -2,7 +2,7 @@
 layout: wordpress
 title: Curso online de AngularJS de $299 por $0 (grátis)
 date: 2015-09-08 22:07:07
-author: jonathanaschweder
+author: jaswdr
 permalink: /curso-online-de-angularjs-de-299-por-0-gratis/
 image: /assets/wp-content/uploads/2015/09/13762694923891.png
 categories:

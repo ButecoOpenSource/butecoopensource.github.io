@@ -4,7 +4,7 @@ title: Integrando o Doctrine ORM e Laravel 5 [parte-1]
 excerpt: |
   Veja este que é a primeira parte de um série sobre a integração do Doctrine ORM, uma biblioteca para se trabalhar com banco de dados e mapeamento, com o Laravel 5 o framework mais popular atualmente para PHP
 date: 2015-05-28 14:53:31
-author: jonathanaschweder
+author: jaswdr
 permalink: /integrando-o-doctrine-orm-e-laravel-5-parte-1/
 image: /assets/wp-content/uploads/2015/05/doctrine-e1432605186500.jpg
 categories:

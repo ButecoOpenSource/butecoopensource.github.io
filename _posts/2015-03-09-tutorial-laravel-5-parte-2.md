@@ -2,7 +2,7 @@
 layout: wordpress
 title: Laravel 5 do começo ao fim [parte 2]
 date: 2015-03-09 07:59:57
-author: jonathanaschweder
+author: jaswdr
 permalink: /tutorial-laravel-5-parte-2/
 image: /assets/wp-content/uploads/2015/02/Laravel-5.png
 categories:

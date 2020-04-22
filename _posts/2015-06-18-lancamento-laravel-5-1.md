@@ -4,7 +4,7 @@ title: Laravel 5.1 LTS lançado, veja algumas das novidades
 excerpt: |
   A tão esperada versão 5.1 do framework PHP Laravel foi finalmente lançada, confira algumas das novidades
 date: 2015-06-18 23:18:08
-author: jonathanaschweder
+author: jaswdr
 permalink: /lancamento-laravel-5-1/
 image: /assets/wp-content/uploads/2015/06/laravel-5.1-released.png
 categories:

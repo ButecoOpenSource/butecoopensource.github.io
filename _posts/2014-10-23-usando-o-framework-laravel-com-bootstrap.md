@@ -2,7 +2,7 @@
 layout: wordpress
 title: Usando o framework Laravel com Bootstrap
 date: 2014-10-23 07:09:48
-author: jonathanaschweder
+author: jaswdr
 permalink: /usando-o-framework-laravel-com-bootstrap/
 categories:
   - Desenvolvimento

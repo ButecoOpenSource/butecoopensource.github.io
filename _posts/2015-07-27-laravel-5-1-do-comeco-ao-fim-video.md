@@ -4,7 +4,7 @@ title: Laravel 5.1 do começo ao fim (em vídeo)
 excerpt: |
   Primeiro vídeo da série falando sobre o laravel 5.1
 date: 2015-07-27 20:10:47
-author: jonathanaschweder
+author: jaswdr
 permalink: /laravel-5-1-do-comeco-ao-fim-video/
 categories:
   - Desenvolvimento

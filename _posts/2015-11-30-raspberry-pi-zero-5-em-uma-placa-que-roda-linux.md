@@ -4,7 +4,7 @@ title: Raspberry Pi Zero, 5$ em uma placa que roda Linux
 excerpt: |
   Lançamento do novo Raspberry Pi Zero, com custo de 5$ este provavelmente é a placa com menor custo que roda Linux
 date: 2015-11-30 22:53:32
-author: jonathanaschweder
+author: jaswdr
 permalink: /raspberry-pi-zero-5-em-uma-placa-que-roda-linux/
 image: /assets/wp-content/uploads/2015/11/rpi_zero.png
 categories:
