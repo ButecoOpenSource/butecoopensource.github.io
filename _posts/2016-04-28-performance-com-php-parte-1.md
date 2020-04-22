@@ -4,7 +4,7 @@ title: PHP e Performance, parte 1
 excerpt: |
   Performance é algo com que todos temos que lidar, afinal temos recursos de hardware limitados a nossa disposição, veja nesaa série algumas dicas de como melhorar a performance no PHP.
 date: 2016-04-28 12:30:31
-author: jonathanaschweder
+author: jaswdr
 permalink: /performance-com-php-parte-1/
 image: /assets/wp-content/uploads/2016/04/phplogo-highres.png
 categories:

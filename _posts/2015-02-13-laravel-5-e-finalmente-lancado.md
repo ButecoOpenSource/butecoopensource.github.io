@@ -4,7 +4,7 @@ title: Laravel 5 é finalmente lançado!
 excerpt: |
   Novidades com Laravel 5
 date: 2015-02-13 06:00:24
-author: jonathanaschweder
+author: jaswdr
 permalink: /laravel-5-e-finalmente-lancado/
 image: /assets/wp-content/uploads/2015/02/laravel-logo1.png
 categories:

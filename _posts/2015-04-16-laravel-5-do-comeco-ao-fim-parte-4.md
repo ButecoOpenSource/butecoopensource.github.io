@@ -4,7 +4,7 @@ title: Laravel 5 do começo ao fim [parte 4]
 excerpt: |
   Nesta quarta parte do tutorial veremos um pouco da parte de testes do Laravel 5, uma boa pratica que todos deveriam adotar mas que muitas vezes é simplesmente ignorada.
 date: 2015-04-16 22:54:51
-author: jonathanaschweder
+author: jaswdr
 permalink: /laravel-5-do-comeco-ao-fim-parte-4/
 image: /assets/wp-content/uploads/2015/02/Laravel-5.png
 categories:

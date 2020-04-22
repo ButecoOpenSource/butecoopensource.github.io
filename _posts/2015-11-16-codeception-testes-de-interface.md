@@ -2,7 +2,7 @@
 layout: wordpress
 title: Codeception, testes de interface
 date: 2015-11-16 22:48:05
-author: jonathanaschweder
+author: jaswdr
 permalink: /codeception-testes-de-interface/
 image: /assets/wp-content/uploads/2015/11/codeception-logo.png
 categories:

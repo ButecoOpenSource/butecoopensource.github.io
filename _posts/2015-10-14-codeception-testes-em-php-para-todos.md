@@ -4,7 +4,7 @@ title: Codeception, testes em PHP para todos
 excerpt: |
   Introdução explicando um pouco sobre o framework de testes Codeception para PHP
 date: 2015-10-14 22:51:45
-author: jonathanaschweder
+author: jaswdr
 permalink: /codeception-testes-em-php-para-todos/
 image: /assets/wp-content/uploads/2015/10/logo2.png
 categories:

@@ -4,7 +4,7 @@ title: Laravel 5.2 lançado, veja as novidades
 excerpt: |
   Veja as novidades da versão 5.2 do Laravel o framework PHP mais popular atualmente
 date: 2015-12-23 07:59:34
-author: jonathanaschweder
+author: jaswdr
 permalink: /laravel-5-2-lancado-veja-as-novidades/
 image: /assets/wp-content/uploads/2015/02/Laravel-5.png
 categories:

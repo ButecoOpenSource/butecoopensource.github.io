@@ -2,7 +2,7 @@
 layout: wordpress
 title: Apigility, Web Service com Zend Framework
 date: 2014-10-02 08:33:20
-author: jonathanaschweder
+author: jaswdr
 permalink: /apigility-web-service-com-zend-framework/
 categories:
   - Ferramentas

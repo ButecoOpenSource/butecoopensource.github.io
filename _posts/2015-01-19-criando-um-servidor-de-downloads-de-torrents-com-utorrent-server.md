@@ -4,7 +4,7 @@ title: Criando um servidor de downloads de torrents com uTorrent Server
 excerpt: |
   Aprenda a criar um servidor de downloads de maneira fácil e rapida com uTorrent Server;
 date: 2015-01-19 07:11:45
-author: jonathanaschweder
+author: jaswdr
 permalink: /criando-um-servidor-de-downloads-de-torrents-com-utorrent-server/
 image: /assets/wp-content/uploads/2015/01/logo_utorrent-150x150.png
 categories:

@@ -2,7 +2,7 @@
 layout: wordpress
 title: Controle de dependência em PHP usando o composer
 date: 2014-10-28 16:31:19
-author: jonathanaschweder
+author: jaswdr
 permalink: /controle-de-dependencia-em-php-usando-o-composer/
 image: /assets/wp-content/uploads/2014/10/logo-composer-transparent.png
 categories:

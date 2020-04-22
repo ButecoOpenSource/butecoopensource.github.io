@@ -4,7 +4,7 @@ title: Como usar o MongoDB com PHP
 excerpt: |
   Dentre os bancos de dados NoSQL da atualidade, um dos mais usados é o MongoDB, seja pela sua eficiência em trabalhar com enormes volumes de dados ou pela sua flexibilidade, algo em comum em bancos NoSQL. Abordaremos neste artigo como trabalhar com ele no PHP.
 date: 2016-04-19 08:41:55
-author: jonathanaschweder
+author: jaswdr
 permalink: /como-usar-o-mongodb-com-php/
 image: /assets/wp-content/uploads/2016/04/mongodb-logo.jpg
 categories:

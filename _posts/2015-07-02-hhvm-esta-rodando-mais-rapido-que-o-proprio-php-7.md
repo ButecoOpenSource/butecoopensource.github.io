@@ -4,7 +4,7 @@ title: HHVM está rodando mais rápido que o próprio PHP 7
 excerpt: |
   Novidades de benchmark sobre a HHVM, um interpretador do PHP feito pela equipe Facebook mostram resultados promissores.
 date: 2015-07-02 21:25:59
-author: jonathanaschweder
+author: jaswdr
 permalink: /hhvm-esta-rodando-mais-rapido-que-o-proprio-php-7/
 image: /assets/wp-content/uploads/2015/06/hack-programming-language-facebook-code1.png
 categories:

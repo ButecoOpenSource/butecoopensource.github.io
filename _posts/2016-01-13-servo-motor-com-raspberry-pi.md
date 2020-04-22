@@ -4,7 +4,7 @@ title: Servo motor com Raspberry Pi
 excerpt: |
   Breve tutorial de como trabalhar com um servomotor usando a linguagem Python no Raspberry Pi
 date: 2016-01-13 11:05:44
-author: jonathanaschweder
+author: jaswdr
 permalink: /servo-motor-com-raspberry-pi/
 image: /assets/wp-content/uploads/2015/05/index.png
 categories:
