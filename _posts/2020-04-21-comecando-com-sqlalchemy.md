@@ -32,7 +32,7 @@ $ python3
 
 ## Conectando e executando queries
 
-Para conectar a um banco de dados suportado pelo sqlalchemy (PostgreSQL, MySQL, SQLite, Oracle ou Microsoft SQL Server) precisamos criar uma istância de `Engine`, este objeto servirá para criarmos nossas sessões de conexão com o banco.
+Para conectar a um banco de dados suportado pelo sqlalchemy (PostgreSQL, MySQL, SQLite, Oracle ou Microsoft SQL Server) precisamos criar uma instância de `Engine`, este objeto servirá para criarmos nossas sessões de conexão com o banco.
 
 ```python
 from sqlalchemy import create_engine
