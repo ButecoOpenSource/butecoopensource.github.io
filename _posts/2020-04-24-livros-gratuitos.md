@@ -37,6 +37,6 @@ Confira alguns dos livros que geralmente são pagos, mas que estão sendo dispon
 
 [Mastering Bitcoin](https://bitcoinbook.info/wp-content/translations/pt_BR/book.pdf)
 
-Eu já li algums dos livros nessa lista e recomendo.
+Eu já li alguns dos livros nessa lista e recomendo.
 
 Sabe de mais algum livro que está gratuito? Deixe um comentário.
