@@ -1,10 +1,15 @@
 ---
 layout: post
 title: "Começando com SQL Alchemy"
-excerpt: "Acessando bancos relacionais e criando modelos ORM de forma fácil no Python"
+excerpt: "Acessando bancos relacionais e criando modelos ORM de forma fácil no Python com o SQL Alchemy."
+tagline: "Acessando bancos relacionais e criando modelos ORM de forma fácil no Python"
 date: 2020-04-21 12:00:00
 permalink: comecando-com-sql-alchemy
 author: jaswdr
+header:
+  overlay_color: "#333"
+  show_overlay_excerpt: true
+  image: /assets/content/sql-alchemy-logo.png
 ---
 
 Diversas aplicaçōes escritas em Python precisam armazenar dados relacionais, usando bancos de dados como PostgreSQL, MySQL, Oracle e outros.

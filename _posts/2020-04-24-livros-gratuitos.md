@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Livros gratuitos"
-excerpt: "Aproveite o tempo em casa para ler alguns livros que estão de graça"
+excerpt: "Aproveite o tempo em casa para ler alguns livros que estão de graça."
+tagline: "Aproveite o tempo em casa para ler alguns livros que estão de graça"
 date: 2020-04-24 08:00:00
 categories: Livros
 tags: kafka kubernetes sre devops bitcoin
@@ -10,12 +11,8 @@ author: alexandrevicenzi
 header:
   overlay_color: "#333"
   show_overlay_excerpt: true
+  image: /assets/content/kafka-definitive-guide-cover.jpg
 ---
-
-<div style="text-align: center; margin-bottom: 1em;">
-    <img src="/assets/content/kubernetes-up-and-running-cover.jpg" style="width: 250px">
-    <img src="/assets/content/kafka-definitive-guide-cover.jpg" style="width: 250px">
-</div>
 
 Ficar em casa trancado não é legal, porém você pode utilizar este tempo para por a sua leitura em dia.
 

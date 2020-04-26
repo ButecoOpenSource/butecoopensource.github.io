@@ -202,6 +202,14 @@ a {
   }
 }
 
+.page__hero-image-wrapper {
+  text-align: center;
+}
+
+.page__hero-image-wrapper > .page__hero-image {
+  max-width: 200px;
+}
+
 @media screen and (min-width: 600px) {
   .footer-links-left {
     float: left;
@@ -221,13 +229,16 @@ a {
   .banner-right {
     margin: 2em 0.5em;
   }
+
+  .page__hero-image-wrapper {
+    float: right;
+  }
 }
 
 @media screen and (max-width: 1199px) {
   .banner-left {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 599px) {
