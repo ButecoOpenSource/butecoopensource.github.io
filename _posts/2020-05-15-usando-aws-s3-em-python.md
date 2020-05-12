@@ -90,7 +90,7 @@ with open("hello-s3.txt", "w+") as f:
   f.write(content)
 ```
 
-Gravando o conteúdo "Ola, S3!" num arquivo `hello-s3.txt` podemos fazer o upload dele para o S3 da seguinte maneira.
+Gravando o conteúdo "Olá, S3!" num arquivo `hello-s3.txt` podemos fazer o upload dele para o S3 da seguinte maneira.
 
 ```python
 client.upload_file("hello-s3.txt", "meu-exemplo-buteco-opensource", "hello-s3")
@@ -106,7 +106,7 @@ Confirmado o upload, podemos tentar fazer o download e imprimir o conteúdo do a
 client.download_file("meu-exemplo-buteco-opensource", "hello-s3", "downloaded-hello-s3.txt")
 d = open("downloaded-hello-s3.txt")
 print(d.readlines())
-# ['\n', 'Ola, S3!\n']
+# ['\n', 'Olá, S3!\n']
 ```
 
 Para isso usamos o método `download_file` que precisa de 3 parâmetros, o primeiro é o nome do bucket, o segundo é a chave do objeto que queremos fazer o download, no nosso caso "hello-s3", e por último o nome do arquivo local que recebera o conteúdo do arquivo do S3. 
