@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "NVIDIA Jetson Nano Developer Kit"
-excerpt: "Uma placa de desenvimento focada em visão computacional e deep learning."
-tagline: "Uma placa de desenvimento focada em visão computacional e deep learning"
+excerpt: "Uma placa de desenvolvimento focada em visão computacional e deep learning."
+tagline: "Uma placa de desenvolvimento focada em visão computacional e deep learning"
 date: 2020-05-06 08:00:00
 categories: Hardware
 tags: nvidia redes-neurais hardware
