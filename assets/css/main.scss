@@ -60,8 +60,22 @@ $h-size-6: 0.8em !default;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+// @media (min-width: 80em) {
+//   #main {
+//     width: 100%;
+//     max-width:1280px;
+//   }
+// }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5em 0 0.5em;
+}
+
 a {
   text-decoration: none !important;
+}
+.site-title {
+  font-weight: normal;
 }
 
 .masthead__menu-item {
@@ -91,6 +105,10 @@ a {
 .page__footer-follow {
   display: inline-block;
   width: 100%;
+
+  a {
+    font-weight: normal;
+  }
 }
 
 .greedy-nav .visible-links a:before {
@@ -115,6 +133,12 @@ a {
   }
 }
 
+.page-wide {
+  .page {
+    width: calc(100% - 150px);
+  }
+}
+
 .page__content {
   a {
     font-weight: bold;
@@ -124,6 +148,14 @@ a {
   a:hover,
   a:visited {
     color: #3d4144;
+  }
+
+  table {
+    margin: 0 0 1.2em;
+  }
+
+  blockquote {
+    margin: 0.5em 1em 0.5em 0;
   }
 }
 
@@ -196,6 +228,22 @@ a {
   }
 }
 
+.page__footer-follow li {
+  padding: 0;
+}
+
+.social-icons li {
+  font-size: 1.2em;
+}
+
+.sidebar p, .sidebar li {
+  font-size: .75em;
+}
+
+.footer-page-links li {
+  font-size: .65em;
+}
+
 .social-icons {
   .fa-telegram-plane {
     color: #0088cc;
@@ -210,12 +258,45 @@ a {
   max-width: 200px;
 }
 
+.archives-home, .archive {
+  .btn {
+    font-weight: normal;
+    font-size: 0.65em;
+  }
+}
+
+.archives-home {
+
+  h2 {
+    margin-top: 0.8em;
+  }
+
+  article {
+    border-bottom: 1px solid #f2f3f3;
+
+    .archive__item-title {
+      // font-weight: normal;
+      font-size: 1em;
+    }
+
+    p.archive__item-excerpt {
+      margin-bottom: 0.6em;
+    }
+
+    p.archive__item-readmore {
+      margin: 0 0 0.8em 0;
+    }
+  }
+}
+
 @media screen and (min-width: 600px) {
   .footer-links-left {
+    text-align: left;
     float: left;
   }
 
   .footer-links-right {
+    text-align: right;
     float: right;
   }
 }

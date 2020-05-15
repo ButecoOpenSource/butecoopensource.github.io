@@ -3,6 +3,7 @@ title: Termos de Uso
 layout: page
 permalink: termos-de-uso
 toc: true
+classes: page-wide
 header:
   overlay_color: "#333"
   show_overlay_excerpt: true

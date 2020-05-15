@@ -4,6 +4,7 @@ tagline: Envie seu artigo
 layout: page
 permalink: envio-de-artigo
 toc: true
+classes: page-wide
 header:
   overlay_color: "#333"
   show_overlay_excerpt: true

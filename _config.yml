@@ -96,6 +96,9 @@ analytics:
     tracking_id          : UA-55693832-1
     anonymize_ip         : false # true, false (default)
 
+addthis:
+  pubid: ra-56269d97a8b5a42b
+
 # Site Author
 author:
   name             : Buteco Open Source

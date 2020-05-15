@@ -66,7 +66,7 @@ pt-BR:
   search_label               : "Buscar"
   toc_label                  : "Nesta página"
   ext_link_label             : "Link direto"
-  less_than                  : "menos que"
+  less_than                  : "menos de"
   minute_read                : "minuto(s) de leitura"
   share_on_label             : "Compartilhe"
   meta_label                 :
@@ -100,3 +100,5 @@ pt-BR:
   results_found              : "Resultado(s) encontrado(s)"
   back_to_top                : "Voltar para o topo"
   read_more                  : "Continue Lendo"
+  by                         : "Por"
+  no_category                : "Sem Categoria"

@@ -1,46 +1,71 @@
 <div class="page__footer-follow">
-  <ul class="social-icons footer-links-left" style="font-size: 1.25em;">
-    {% for link in site.data.navigation.social %}
-      {% if link.title and link.url %}
-        <li>
-          <a href="{{ link.url }}"
-             rel="nofollow noopener noreferrer"
-             title="{{ link.title }}">
-            <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
+  <div class="footer-links-left">
+    <ul class="social-icons">
+      {% for link in site.data.navigation.social %}
+        {% if link.title and link.url %}
+          <li>
+            <a href="{{ link.url }}"
+               rel="nofollow noopener noreferrer"
+               title="{{ link.title }}">
+              <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
 
-    <li>
-      <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"
-         title="{{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}">
-        <i class="fas fa-fw fa-rss-square" aria-hidden="true"></i>
-      </a>
-    </li>
-  </ul>
+      <li>
+        <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"
+           title="{{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}">
+          <i class="fas fa-fw fa-rss-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
 
   {% assign footer = site.data.navigation.footer %}
+  {% assign terms = site.data.navigation.terms %}
 
-  {% if footer %}
-    <ul class="footer-links-right">
-    {% for link in footer %}
-      {% if link.title and link.url %}
-        {% comment %} internal/external URL check {% endcomment %}
-        {% if link.url contains "://" %}
-          {% assign link_url = link.url %}
-        {% else %}
-          {% assign link_url = link.url | relative_url %}
+  <div class="footer-links-right">
+    {% if footer %}
+      <ul class="footer-page-links">
+      {% for link in footer %}
+        {% if link.title and link.url %}
+          {% comment %} internal/external URL check {% endcomment %}
+          {% if link.url contains "://" %}
+            {% assign link_url = link.url %}
+          {% else %}
+            {% assign link_url = link.url | relative_url %}
+          {% endif %}
+          <li>
+            <a href="{{ link_url }}" rel="nofollow noopener noreferrer">
+              <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.title }}
+            </a>
+          </li>
         {% endif %}
-        <li>
-          <a href="{{ link_url }}" rel="nofollow noopener noreferrer">
-            <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.title }}
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-  {% endif %}
+      {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if terms %}
+      <ul class="footer-page-links">
+      {% for link in terms %}
+        {% if link.title and link.url %}
+          {% comment %} internal/external URL check {% endcomment %}
+          {% if link.url contains "://" %}
+            {% assign link_url = link.url %}
+          {% else %}
+            {% assign link_url = link.url | relative_url %}
+          {% endif %}
+          <li>
+            <a href="{{ link_url }}" rel="nofollow noopener noreferrer">
+              <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.title }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
 </div>
 
 <div class="page__footer-copyright">
@@ -49,8 +74,8 @@
   </a>
 
   <br>
-
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+  <br>
 
   {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>
   &amp;

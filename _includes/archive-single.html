@@ -28,13 +28,26 @@
         <a href="{{ post.url | relative_url }}">{{ title }}</a>
       {% endif %}
     </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
+      <p class="page__meta">
+        {% assign author = site.data.authors[post.author] %}
+        {% assign no_category = site.data.ui-text[site.locale].no_category %}
+        <span>{{ site.data.ui-text[site.locale].by | default: "By" }} {{ author.name }}</span>
+        <!-- &ndash; <span>{{ post.categories | first | default: no_category }}</span> -->
+        {% if post.date %}
+        &ndash;
+        <span>
+          <i class="far fa-calendar-alt" aria-hidden="true"></i>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+        </span>
+        {% endif %}
+        {% if post.read_time %}
+        &ndash; <span><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</span>
+        {% endif %}
+      </p>
     {% if post.excerpt %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 300 }}</p>
     {% endif %}
-    <p>
+    <p class="archive__item-readmore">
       <a href="{{ post.url | relative_url }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].read_more | default: "Read More" }}</a>
     </p>
   </article>

@@ -3,6 +3,7 @@ title: Política de Privacidade
 layout: page
 permalink: politica-de-privacidade
 toc: true
+classes: page-wide
 header:
   overlay_color: "#333"
   show_overlay_excerpt: true

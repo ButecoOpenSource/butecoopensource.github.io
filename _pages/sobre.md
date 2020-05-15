@@ -4,6 +4,7 @@ tagline: Conheça um pouco de nossa história
 layout: page
 permalink: sobre
 toc: true
+classes: page-wide
 header:
   overlay_color: "#333"
   show_overlay_excerpt: true

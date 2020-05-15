@@ -4,6 +4,7 @@ tagline: Confira quem faz parte do Buteco
 layout: page
 permalink: equipe
 toc: true
+classes: page-wide
 header:
   overlay_color: "#333"
   show_overlay_excerpt: true
