@@ -1,8 +1,12 @@
 ---
-title: Anuncie conosco
+title: Anuncie
+tagline: Confira como anunciar conosco
 layout: page
 permalink: anuncie-conosco
 toc: true
+header:
+  overlay_color: "#333"
+  show_overlay_excerpt: true
 ---
 
 ## Como funciona?

@@ -3,6 +3,9 @@ title: Política de Privacidade
 layout: page
 permalink: politica-de-privacidade
 toc: true
+header:
+  overlay_color: "#333"
+  show_overlay_excerpt: true
 ---
 
 Sua privacidade é importante para nós. Quando o Buteco Open Source (ou seja, nós) coleta informações sobre você, nossa Política de Privacidade descreve de que forma gerenciamos essas informações.

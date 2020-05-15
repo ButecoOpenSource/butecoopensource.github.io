@@ -1,8 +1,12 @@
 ---
-title: Envie seu artigo
+title: Colabore
+tagline: Envie seu artigo
 layout: page
 permalink: envio-de-artigo
 toc: true
+header:
+  overlay_color: "#333"
+  show_overlay_excerpt: true
 ---
 
 ## Como funciona?

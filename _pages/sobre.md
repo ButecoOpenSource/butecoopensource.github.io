@@ -1,8 +1,12 @@
 ---
 title: Sobre
+tagline: Conheça um pouco de nossa história
 layout: page
 permalink: sobre
 toc: true
+header:
+  overlay_color: "#333"
+  show_overlay_excerpt: true
 ---
 
 ## Ideia

@@ -1,8 +1,12 @@
 ---
 title: Equipe
+tagline: Confira quem faz parte do Buteco
 layout: page
 permalink: equipe
 toc: true
+header:
+  overlay_color: "#333"
+  show_overlay_excerpt: true
 ---
 
 ## Administradores
