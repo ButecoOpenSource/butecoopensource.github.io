@@ -26,7 +26,7 @@ Confira alguns dos livros que geralmente são pagos, mas que estão sendo dispon
 
 [Cloud Native DevOps With Kubernetes](https://www.nginx.com/resources/library/cloud-native-devops-with-kubernetes/)
 
-[Building Secure & Reliable Systems](https://static.googleusercontent.com/media/landing.google.com/en//sre/static/pdf/SRS.pdf)
+[Building Secure & Reliable Systems](https://landing.google.com/sre/resources/foundationsandprinciples/srs-book/)
 
 [Kafka: The Definitive Guide](https://www.confluent.io/resources/kafka-the-definitive-guide/)
 
