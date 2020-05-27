@@ -27,7 +27,10 @@ social:
     url: https://www.youtube.com/c/ButecoOpenSource
   - title: "Facebook"
     icon: "fab fa-fw fa-facebook-square"
-    url: "https://www.facebook.com/butecopensource/"
+    url: "https://www.facebook.com/butecopensource"
+  - title: "Linkedin"
+    icon: "fab fa-fw fa-linkedin"
+    url: "https://www.linkedin.com/company/butecopensource"
   # - title: "Instagram"
   #   icon: "fab fa-fw fa-instagram"
   #   url:

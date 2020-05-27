@@ -46,7 +46,7 @@ Ao contribuir com conteúdo você concorda com o seguinte:
 
 ## Política de Privacidade e Cookies
 
-A nossa [política de privacidade](http://localhost:4000/politica-de-privacidade) descreve a forma como gerenciamos as informações que recebemos de você em relação às nossas Comunicações.
+A nossa [política de privacidade](/politica-de-privacidade) descreve a forma como gerenciamos as informações que recebemos de você em relação às nossas Comunicações.
 
 A política de privacidade explica, por exemplo, que usamos determinados cookies em nossos websites e como você pode desativá-los.
 

@@ -79,7 +79,7 @@ facebook:
   username               : butecopensource
   app_id                 : 978415925526836
   publisher              : 978415925526836
-og_image                 : /assets/images/logo.png # Open Graph/Twitter default site image
+og_image                 : /assets/images/logo-og.png # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -121,7 +121,7 @@ author:
       url: "https://www.youtube.com/c/ButecoOpenSource"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/butecopensource/"
+      url: "https://www.facebook.com/butecopensource"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ButecoOpenSource"
@@ -143,7 +143,7 @@ author:
 #       url: https://www.youtube.com/c/ButecoOpenSource
 #     - label: "Facebook"
 #       icon: "fab fa-fw fa-facebook-square"
-#       url: "https://www.facebook.com/butecopensource/"
+#       url: "https://www.facebook.com/butecopensource"
 #     # - label: "Instagram"
 #     #   icon: "fab fa-fw fa-instagram"
 #     #   url:

@@ -11,7 +11,7 @@ header:
 
 Sua privacidade é importante para nós. Quando o Buteco Open Source (ou seja, nós) coleta informações sobre você, nossa Política de Privacidade descreve de que forma gerenciamos essas informações.
 
-Este aviso de privacidade se aplica aos websites administrados pelo Buteco Open Source, inclusive os domínios, [butecopensource.com.br](http://butecopensource.com.br) e [www.butecopensource.com.br](http://www.butecopensource.com.br).
+Este aviso de privacidade se aplica aos websites administrados pelo Buteco Open Source, inclusive os domínios, [butecopensource.com.br](https://butecopensource.com.br) e [buteco.me](https://buteco.me).
 
 ##  O que entendemos como "informações pessoais"?
 

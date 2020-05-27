@@ -36,7 +36,7 @@ Se tudo ocorrer como esperado você verá uma página com os dados de "Access ke
 
 ![tela-user-credentials](/assets/content/python-s3-tela-user-credentials.png)
 
-# Enviando e recebemento arquivos do S3
+## Enviando e recebemento arquivos do S3
 
 Agora que temos nosso usuário, podemos enviar e receber arquivos ao S3, no caso de Python é comum usar a biblioteca boto3, uma biblioteca que pode ser usada não só para acessar o S3 mas diversos outros serviços da Amazon.
 
@@ -113,7 +113,7 @@ Para isso usamos o método `download_file` que precisa de 3 parâmetros, o prime
 
 Executando com sucesso o código acima, é esperado que você tenha um arquivo chamado "downloaded-hello-s3.txt" com o conteúdo original que criamos nos passos anteriores.
 
-# Conclusão
+## Conclusão
 
 Podemos ver que é bastante simples usar o S3 da Amazon, podemos aplicar isso em diversos tipos de aplicações e ao usar outros recursos do S3 como deixar o bucket público, conseguimos hospedar arquivos estáticos que podem ser acessados por qualquer pessoal, isso é especialmente útil para aplicações de streaming, CDN e muitas outras.
 
