@@ -16,7 +16,7 @@ tags:
 
 <img class="aligncenter size-full wp-image-1575" src="/assets/wp-content/uploads/2015/03/gnome-logosz.png" alt="gnome-logosz" width="417" height="201" />
 
-Há um tempo postei aqui no blog um artigo de como criar um formulário com PyGtk, Gdk e Sqlite3. O tutorial é altamente explicativo e pode ser visto <a href="/2015/03/09/criando-formularios-com-python-e-pygtk3/">aqui</a>.
+Há um tempo postei aqui no blog um artigo de como criar um formulário com PyGtk, Gdk e Sqlite3. O tutorial é altamente explicativo e pode ser visto <a href="/criando-formularios-com-python-e-pygtk3">aqui</a>.
 
 O único problema e digo que foi proposital, é que toda a interface da aplicação foi construída via código, isso é bom e ruim ao mesmo tempo, depende de como você vê.
 

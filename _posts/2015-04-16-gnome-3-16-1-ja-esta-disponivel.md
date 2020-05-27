@@ -14,7 +14,7 @@ tags:
   - linux
 ---
 
-O GNOME 3.16.1 foi disponibilizado hoje para download. Esta versão contempla atualizações sobre 3.16, liberada <a href="/2015/03/26/gnome-3-16-foi-lancado/" target="_blank">mês passado</a>, e traz correções de BUGs, melhorias no próprio GNOME, atualização da documentação e traduções.
+O GNOME 3.16.1 foi disponibilizado hoje para download. Esta versão contempla atualizações sobre 3.16, liberada <a href="/gnome-3-16-foi-lancado" target="_blank">mês passado</a>, e traz correções de BUGs, melhorias no próprio GNOME, atualização da documentação e traduções.
 
 Os desenvolvedores do projeto agora estão focados no desenvolvimento da versão 3.18, que será lançada em Setembro. E nos próximos dias será disponibilizado o calendário de liberação das novas releases.
 

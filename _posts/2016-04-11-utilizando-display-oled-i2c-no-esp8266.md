@@ -30,7 +30,7 @@ O display que estou utilizando é o <a>OLED com controlador SSD1306</a> com tama
 
 Para utilizar o display com o NodeMCU, necessitamos de dois módulos adicionais, que são o <strong>I2C</strong> e o <strong>U8G</strong>. Além disso, quando criarmos a build customizada do firmware, necessitamos nos atentar a alguns detalhes. Quando selecionamos o módulo U8G, necessitamos informar três itens, que são: a fonte e os drivers I2C e SPI compatíveis com o display. No nosso caso iremos utilizar as fontes <em>font_6x10</em> e <em>font_chikita</em> e o driver compatível é o <em>SSD1306_128x64</em>.
 
-Para saber como gerar um firmware customizado do NodeMCU eu recomendo a leitura dos artigos <a href="/conhecendo-os-modulos-do-nodemcu/">Conhecendo os módulos do NodeMCU</a> e <a href="/nodemcu-lua-para-o-esp8266/">NodeMCU: Lua para o ESP8266</a>.
+Para saber como gerar um firmware customizado do NodeMCU eu recomendo a leitura dos artigos <a href="/conhecendo-os-modulos-do-nodemcu">Conhecendo os módulos do NodeMCU</a> e <a href="/nodemcu-lua-para-o-esp8266">NodeMCU: Lua para o ESP8266</a>.
 
 Na imagem a seguir é exibido o esquema do circuito para utilizar o ESP8266 com o display OLED.
 

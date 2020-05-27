@@ -20,7 +20,7 @@ Nesse artigo falaremos em políticas e varreduras.
 
 Com o programa já instalado iremos entrar efetuar o login.
 
-Caso você não tenha visto a parte 1 que fala sobre a instalação, <a href="/2015/04/13/tutorial-nessus-home-parte-1/" target="_blank">veja aqui.</a>
+Caso você não tenha visto a parte 1 que fala sobre a instalação, <a href="/tutorial-nessus-home-parte-1" target="_blank">veja aqui.</a>
 
 Na parte superior podemos ver (Scans) varreduras e (Policies) políticas.
 

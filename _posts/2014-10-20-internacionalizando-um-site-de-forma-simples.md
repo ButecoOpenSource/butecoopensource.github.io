@@ -33,4 +33,4 @@ O código HTML ficará assim:
 
 Você pode ver um código exemplo mais completo <a href="//github.com/alexandrevicenzi/alexandrevicenzi.github.io">aqui</a> ou acessar e ver a execução <a href="http://alexandrevicenzi.com/">aqui</a>.
 
-Espero que vocês tenham gostado. Não deixem de assinar o nosso <a href="/feed/atom/">RSS</a>.
+Espero que vocês tenham gostado. Não deixem de assinar o nosso <a href="/feed.xml">RSS</a>.

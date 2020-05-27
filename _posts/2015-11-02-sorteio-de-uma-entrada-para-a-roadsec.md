@@ -21,5 +21,5 @@ Em parceria com o <a href="http://roadsec.com.br/" target="_blank">Roadsec</a>�
 
 <a class="e-widget" href="https://gleam.io/xvt72/sorteio-entrada-roadsec-sp" rel="nofollow">Sorteio entrada Roadsec SP</a>
 <p style="text-align: center;"><small><a href="https://gleam.io/xvt72/sorteio-entrada-roadsec-sp" target="_blank">Clique aqui caso não carregue</a></small></p>
-<p style="text-align: left;">Confira o <a href="/roadsec-um-testemunho/" target="_blank">testemunho</a> do Marco no evento em Floripa.</p>
+<p style="text-align: left;">Confira o <a href="/roadsec-um-testemunho" target="_blank">testemunho</a> do Marco no evento em Floripa.</p>
 <script src="https://js.gleam.io/e.js" async="true" type="text/javascript"></script>

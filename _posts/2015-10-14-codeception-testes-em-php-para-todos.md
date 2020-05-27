@@ -24,7 +24,7 @@ Olá galera, tudo certo ?
 <h3 style="text-align: center;">Instalação</h3>
 Para instalar o Codeception é muito simples pessoal, basta a partir de qualquer pasta executar o seguinte comando:
 <pre><code>composer require codeception/codeception</code></pre>
-<em>    Observação: Caso você não conheça o composer, ele é um gerenciador as dependências para seus projetos, veja <a href="/controle-de-dependencia-em-php-usando-o-composer/" target="_blank">este post</a> falando sobre.</em>
+<em>    Observação: Caso você não conheça o composer, ele é um gerenciador as dependências para seus projetos, veja <a href="/controle-de-dependencia-em-php-usando-o-composer" target="_blank">este post</a> falando sobre.</em>
 <h3 style="text-align: center;">Começando...</h3>
 Após o término da instalação, podemos verificar que o executável <strong>codecept</strong> reside na pasta <strong>"vendor/bin"</strong>. O primeiro comando necessário para utilizar a ferramenta é:
 <pre><code>vendorbincodecept bootstrap</code></pre>

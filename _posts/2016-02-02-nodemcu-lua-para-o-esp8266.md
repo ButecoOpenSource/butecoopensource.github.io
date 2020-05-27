@@ -37,7 +37,7 @@ Inicialmente vamos fazer o <a href="https://github.com/nodemcu/nodemcu-firmware/
 
 Tendo o <em>.bin</em> em mãos, vamos baixar a ferramenta que fará o upload. Existem duas bem populares, o <a href="https://github.com/nodemcu/nodemcu-flasher">NodeMCU Flasher</a>, para Windows, e o <a href="https://github.com/themadinventor/esptool">esptool</a>, multiplataforma. Se você possui o Python e o Pip instalado em sua máquina basta executar <code>pip install esptool</code> para baixar o pacote e instalá-lo, este é o método mais aconselhado de instalação.
 
-Para fazer o flash do ESP8266, é necessário colocá-lo em modo de programação. Isto varia de modelo para modelo, sendo assim eu sugiro a leitura do artigo <a href="/primeiros-passos-com-o-esp8266/">Primeiros passos com o ESP8266</a> para um melhor entendimento.
+Para fazer o flash do ESP8266, é necessário colocá-lo em modo de programação. Isto varia de modelo para modelo, sendo assim eu sugiro a leitura do artigo <a href="/primeiros-passos-com-o-esp8266">Primeiros passos com o ESP8266</a> para um melhor entendimento.
 
 <strong>NodeMCU Flasher</strong>
 

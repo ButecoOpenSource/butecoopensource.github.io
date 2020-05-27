@@ -15,7 +15,7 @@ tags:
 
 Foi liberado nesta quarta-feira (25/02) a nova versão do Python, a 3.4.3 (final). Esta versão vem com várias correções de bugs e melhorias em relação a 3.4.2.
 
-As alterações da versão 3.4.3 já foram comentadas na nota de liberação da 3.4.3rc1 e você pode conferir <a href="/2015/02/09/python-3-4-3-e-3-5-ja-estao-a-caminho/" target="_blank">aqui</a>.
+As alterações da versão 3.4.3 já foram comentadas na nota de liberação da 3.4.3rc1 e você pode conferir <a href="/python-3-4-3-e-3-5-ja-estao-a-caminho" target="_blank">aqui</a>.
 
 Vale a pena ressaltar novamente, alguns dos itens desta versão que chamam mais a atenção. Confira abaixo:
 <ul>
@@ -26,4 +26,4 @@ Vale a pena ressaltar novamente, alguns dos itens desta versão que chamam mais 
 </ul>
 Você pode fazer o download da 3.4.3 <a href="https://www.python.org/downloads/release/python-343/" target="_blank">aqui</a>.
 
-Assine nosso <a href="/feed/" target="_blank">feed</a> e não perca nenhuma novidade sobre as novas versões do Python.
+Assine nosso <a href="/feed.xml" target="_blank">feed</a> e não perca nenhuma novidade sobre as novas versões do Python.

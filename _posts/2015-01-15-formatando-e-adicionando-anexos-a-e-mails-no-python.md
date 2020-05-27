@@ -13,7 +13,7 @@ tags:
   - smtplib
 ---
 
-Há algumas semanas, nós mostramos <a href="/2014/12/28/enviando-emails-com-o-python/" target="_blank">como enviar e-mail pelo Python</a> usando o módulo <a href="https://docs.python.org/2.7/library/smtplib.html" target="_blank">smtplib</a>. Hoje iremos dar continuidade ao envio de e-mail, desta vez focaremos em sua formatação e adição de arquivos anexos.
+Há algumas semanas, nós mostramos <a href="/enviando-emails-com-o-python" target="_blank">como enviar e-mail pelo Python</a> usando o módulo <a href="https://docs.python.org/2.7/library/smtplib.html" target="_blank">smtplib</a>. Hoje iremos dar continuidade ao envio de e-mail, desta vez focaremos em sua formatação e adição de arquivos anexos.
 
 Para fazer este serviço iremos utilizar o módulo <a href="https://docs.python.org/2.7/library/email.html" target="_blank">email</a>. Este módulo é uma biblioteca para manipulação de mensagens de email e outros documentos do tipo MIME. Como este módulo já está incluso nas bibliotecas do Python você não precisará instalar nenhuma biblioteca adicional.
 

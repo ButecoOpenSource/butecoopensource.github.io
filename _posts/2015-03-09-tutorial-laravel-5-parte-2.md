@@ -20,7 +20,7 @@ tags:
   - view
 ---
 
-Esta é a segunda parte do tutorial sobre Laravel 5, caso você não tenha ainda visto, veja a primeira parte dessa série neste <a href="/2015/02/18/tutorial-laravel-5/">link</a>.
+Esta é a segunda parte do tutorial sobre Laravel 5, caso você não tenha ainda visto, veja a primeira parte dessa série neste <a href="/tutorial-laravel-5">link</a>.
 
 Continuando o tutorial vamos agora partir para a parte MVC do framework, o laravel assim como a maioria dos frameworks utiliza esse conceito, veja abaixo uma tabela explicativa:
 <table>

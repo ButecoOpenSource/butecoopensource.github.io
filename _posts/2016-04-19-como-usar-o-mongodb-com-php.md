@@ -40,7 +40,7 @@ pecl install mongodb
 
 Para mais informações de como instalar na sua distro ou no Windows, veja no <a href="https://github.com/mongodb/mongo-php-driver">repositório do github</a>.
 <h2><a id="criando_projeto"></a>Criando um projeto</h2>
-Para criar um projeto e utilizar o MongoDB no caso do PHP podemos usar o Composer, caso tenha dúvidas de como instá-lo você pode ver <a href="/controle-de-dependencia-em-php-usando-o-composer/">aqui</a> mais detalhes. Crie um pasta em um diretório qualquer e rode o comando abaixo para instalar o cliente do MongoDB para PHP.
+Para criar um projeto e utilizar o MongoDB no caso do PHP podemos usar o Composer, caso tenha dúvidas de como instá-lo você pode ver <a href="/controle-de-dependencia-em-php-usando-o-composer">aqui</a> mais detalhes. Crie um pasta em um diretório qualquer e rode o comando abaixo para instalar o cliente do MongoDB para PHP.
 
 <pre><code class="bash">
 composer require mongodb/mongodb

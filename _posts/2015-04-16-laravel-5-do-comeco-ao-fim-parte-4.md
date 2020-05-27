@@ -22,9 +22,9 @@ tags:
 
 Neste post veremos uma peça fundamental de um <em>workflow</em> que tento sempre seguir, o famoso "TDD", que em tradução livre ficaria algo como "Desenvolvimento Orientado a Testes", que seria a parte de teste com Laravel 5, caso não tenha visto, veja outras partes dessa série nos links abaixo:
 <ul>
-	<li><a href="/tutorial-laravel-5/" target="_blank">Parte 1</a></li>
-	<li><a href="/tutorial-laravel-5-parte-2/" target="_blank">Parte 2</a></li>
-	<li><a href="/laravel-5-do-comeco-ao-fim-parte-3/" target="_blank">Parte 3</a></li>
+	<li><a href="/tutorial-laravel-5" target="_blank">Parte 1</a></li>
+	<li><a href="/tutorial-laravel-5-parte-2" target="_blank">Parte 2</a></li>
+	<li><a href="/laravel-5-do-comeco-ao-fim-parte-3" target="_blank">Parte 3</a></li>
 </ul>
 Algo que muitos programadores simplesmente ignoram, seja por preguiça ou qualquer outro motivo obscuro, é a parte de automação de testes. Muitos ainda utilizam a velha prática de testar na mão as funcionalidades do <em>software</em>, porém isto não é algo recomendado uma vez que existem grandes chances de você simplesmente esquecer de realizar algum teste importante de alguma funcionalidade, além de claro, esse processo é extremamente maçante e sinceramente  desnecessário ser realizado por mentes humanas.
 

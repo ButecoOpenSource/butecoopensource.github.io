@@ -11,7 +11,7 @@ tags:
   - banana-pi
 ---
 
-Na <a href="/2014/12/09/rodando-linux-em-uma-banana/">primeira postagem sobre o Banana Pi</a> eu comentei sobre o <em>hardware</em> e se seria uma boa opção de compra. Pois bem, nesta postagem irei comentar como colocar o BPi para funcionar, caso você já possua um ou está pensando em adquiri-lo.
+Na <a href="/rodando-linux-em-uma-banana">primeira postagem sobre o Banana Pi</a> eu comentei sobre o <em>hardware</em> e se seria uma boa opção de compra. Pois bem, nesta postagem irei comentar como colocar o BPi para funcionar, caso você já possua um ou está pensando em adquiri-lo.
 
 <em>Todos os exemplos são baseados no Linux, se você usa outro sistema operacional veja as instruções <a href="http://www.lemaker.org/resources/9-39/banana_pi_quick_start_guide.html">aqui</a>.</em>
 

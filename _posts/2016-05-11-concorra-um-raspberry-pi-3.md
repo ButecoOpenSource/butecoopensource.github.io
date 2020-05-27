@@ -13,7 +13,7 @@ tags:
   - wifi
 ---
 
-A <a href="http://www.filipeflop.com/?utm_source=Blog&amp;utm_medium=Banner&amp;utm_campaign=ButecoOpenSource" target="_blank">FILIPEFLOP</a>, nossa parceira, esta realizando o sorteio de um Raspberry Pi 3. O Raspberry Pi 3 recém chegou na FILIPEFLOP e há alguns dias atras <a href="/review-raspberry-pi-3/" target="_blank">fizemos uma review</a> comentando as diferenças em relação ao seu antecessor.
+A <a href="http://www.filipeflop.com/?utm_source=Blog&amp;utm_medium=Banner&amp;utm_campaign=ButecoOpenSource" target="_blank">FILIPEFLOP</a>, nossa parceira, esta realizando o sorteio de um Raspberry Pi 3. O Raspberry Pi 3 recém chegou na FILIPEFLOP e há alguns dias atras <a href="/review-raspberry-pi-3" target="_blank">fizemos uma review</a> comentando as diferenças em relação ao seu antecessor.
 
 O novo Raspberry Pi 3 vem agora com muito mais poder de processamento, tudo isso graças ao processador Broadcom Quad Core BCM2837 de 64 bits e clock de 1.2GHz. Além disso foi integrado WiFi 802.11n que permite conexões a internet sem cabo e Bluetooth 4.1 para uma conexão mais fácil ao RPi.
 <!--more-->

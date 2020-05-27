@@ -17,7 +17,7 @@ tags:
   - raspberrypi
 ---
 
-Na <a href="/gps-parte-1-entendendo-o-seu-funcionamento/" target="_blank">primeira parte</a> sobre GPS, vimos como este sistema de rastreamento por satélite funciona. Já na <a href="/gps-parte-2-decodificando-uma-sentenca-nmea/" target="_blank">segunda parte</a>, vimos uma sentença NMEA funciona e como fazemos para decodificá-la.
+Na <a href="/gps-parte-1-entendendo-o-seu-funcionamento" target="_blank">primeira parte</a> sobre GPS, vimos como este sistema de rastreamento por satélite funciona. Já na <a href="/gps-parte-2-decodificando-uma-sentenca-nmea" target="_blank">segunda parte</a>, vimos uma sentença NMEA funciona e como fazemos para decodificá-la.
 
 Neste artigo, iremos colocar tudo o que vimos em prática. Sendo assim, vamos a lista de material necessária:
 <ul>
@@ -36,7 +36,7 @@ Antes de mais nada, vou explicar o que vamos fazer. Basicamente, iremos utilizar
 
 Para criar a parte de templates e rotas foi utilizado o micro framework <a href="http://bottlepy.org/docs/dev/index.html" target="_blank">Bottle</a>. O Bottle é um WSGI para Python, muito similar ao <a href="http://flask.pocoo.org/" target="_blank">Flask</a>. Optei por ele pelo fato de ser distribuido em um único arquivo, facilitando a vida de quem usa sistemas embarcados.
 
-Outra dependência é o <em>parser</em> NMEA implementado na <a href="/gps-parte-2-decodificando-uma-sentenca-nmea/" target="_blank">segunda parte</a> deste tutorial.
+Outra dependência é o <em>parser</em> NMEA implementado na <a href="/gps-parte-2-decodificando-uma-sentenca-nmea" target="_blank">segunda parte</a> deste tutorial.
 
 No arquivo abaixo temos o template da página do mapa.
 

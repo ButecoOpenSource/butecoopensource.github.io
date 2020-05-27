@@ -11,7 +11,7 @@ tags:
   - python
 ---
 
-Olá pessoa, este post é uma continuação do post sobre tcl/expect escrito previamente no blog. Se você perdeu este artigo, você pode vê-lo <a href="/2014/10/07/tclexpect-automatizacao-de-comandos-interativos-no-linux/">aqui</a>.
+Olá pessoa, este post é uma continuação do post sobre tcl/expect escrito previamente no blog. Se você perdeu este artigo, você pode vê-lo <a href="/tclexpect-automatizacao-de-comandos-interativos-no-linux">aqui</a>.
 
 Tcl é uma linguagem de fácil aprendizado, mas tem suas limitações. A linguagem Python, além de ser muito mais popular que Tcl também tem muitas facilidades em sua linguagem que Tcl não suporta. Alguns trechos de código podem ficar muito mais simples em Python do que escritos em Tcl. Então este tutorial requer no mínimo um pouco de conhecimento na linguagem Python para poder aproveitar seu conteúdo.
 

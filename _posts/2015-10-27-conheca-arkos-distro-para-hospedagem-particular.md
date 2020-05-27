@@ -54,6 +54,6 @@ A distribuição está disponível para <em>download</em> <a href="https://arkos
 
 Pretendo fazer mais alguns testes e escrever sobre ele mais para frente.
 
-Caso você queira testar outro SO para Raspberry veja outros artigos como, <a href="/instalando-o-ubuntu-mate-15-04-no-raspberry-pi-2/" target="_blank">Ubuntu Mate</a> e <a href="/criando-uma-central-de-multimidia-com-raspberry-pi/" target="_blank">Central de Multimídia</a>.
+Caso você queira testar outro SO para Raspberry veja outros artigos como, <a href="/instalando-o-ubuntu-mate-15-04-no-raspberry-pi-2" target="_blank">Ubuntu Mate</a> e <a href="/criando-uma-central-de-multimidia-com-raspberry-pi" target="_blank">Central de Multimídia</a>.
 
 Fonte: <a href="https://arkos.io/" target="_blank">arkOS</a>

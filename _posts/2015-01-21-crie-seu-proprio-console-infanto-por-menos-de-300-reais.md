@@ -28,7 +28,7 @@ Agora que você está por dentro vamos ao que interessa. A montagem de nosso con
 
 <strong>Software utilizado</strong>
 
-O software que utilizaremos é o <a href="http://www.lakka.tv/" target="_blank">Lakka</a>. O Lakka é uma pequena distribuição Linux baseada no <a href="http://openelec.tv/" target="_blank">OpenELEC</a> e no <a href="http://www.libretro.com/" target="_blank">RetroArch</a>.
+O software que utilizaremos é o <a href="https://www.lakka.tv/" target="_blank">Lakka</a>. O Lakka é uma pequena distribuição Linux baseada no <a href="http://openelec.tv/" target="_blank">OpenELEC</a> e no <a href="http://www.libretro.com/" target="_blank">RetroArch</a>.
 
 Existem outras opções semelhantes ao Lakka, como por exemplo o <a href="https://github.com/petrockblog/RetroPie-Setup" target="_blank">RetroPie</a> e o <a href="https://github.com/ssilverm/PiMAME" target="_blank">PiMAME</a>. Porém o Lakka, diferente desses outros, possibilita que você use um hardware diferente do Raspberry Pi, e isto foi o que me chamou mais a atenção.
 
@@ -49,13 +49,13 @@ O hardware necessário é variável, no meu caso eu utilizarei o Banana Pi. Mas 
 </ul>
 Os hardware que possuem GPU MALI são os menos indicados para rodar o Lakka, isto por causa da baixa qualidade dos drivers MALI GLES. Mesmo assim você ainda pode se divertir e jogar bastante.
 
-Confira a descrição completa dos hardwares suportados <a href="www.lakka.tv/doc/Hardware-support/#computers" target="_blank">aqui</a>.
+Confira a descrição completa dos hardwares suportados <a href="https://www.lakka.tv/doc/Hardware-support/#computers" target="_blank">aqui</a>.
 
 <strong>Controles suportados</strong>
 
 A lista de controles suportados não é muito grande, mas, pelo menos, são controles bem conhecidos que você poderá reutilizar. Neste caso, você pode reaproveitar o seu controle do Xbox 360 ou o do PS3. Controles genéricos tendem a funcionar também, mas não são 100% compatíveis. Se você preferir, você poderá utilizar o seu teclado para jogar.
 
-Confira a lista completa de controles suportados <a href="www.lakka.tv/doc/Hardware-support/#joypads" target="_blank">aqui</a>.
+Confira a lista completa de controles suportados <a href="https://www.lakka.tv/doc/Hardware-support/#joypads" target="_blank">aqui</a>.
 
 <strong>Preço</strong>
 
@@ -106,7 +106,7 @@ extraargs='console=ttyS0,115200 console=tty0 boot=/dev/mmcblk0p1 disk=/dev/mmcbl
 boot_mmc=fatload mmc 0 0x43000000 ${fexfile}; fatload mmc 0 0x48000000 ${kernel}; bootm 0x48000000</code></pre>
 Geralmente isto não é necessário, dependerá do hardware que você estiver utilizando e da saída de vídeo.
 
-Se você possuir dúvidas sobre este arquivo, confira <a href="/2014/12/10/primeiros-passos-com-o-banana-pi/" target="_blank">este</a> tutorial.
+Se você possuir dúvidas sobre este arquivo, confira <a href="/primeiros-passos-com-o-banana-pi" target="_blank">este</a> tutorial.
 
 Após copiar a imagem para o SD é necessário que seja efetuado um primeiro boot no Lakka, isto para que ele possa expandir o seu sistema de arquivos e criar toda a estrutura necessária. Após isto, você pode copiar os jogos para a pasta <em>rom</em>.
 

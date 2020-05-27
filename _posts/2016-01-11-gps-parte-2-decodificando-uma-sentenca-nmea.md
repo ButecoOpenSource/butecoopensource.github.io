@@ -14,7 +14,7 @@ tags:
   - python
 ---
 
-Na <a href="/gps-parte-1-entendendo-o-seu-funcionamento/" target="_blank">primeira parte</a> sobre GPS vimos como este sistema de rastreamento por satélite funciona. Também aproveitamos para explicar o que é o protocolo NMEA, utilizado pelos sistemas de navegação global.
+Na <a href="/gps-parte-1-entendendo-o-seu-funcionamento" target="_blank">primeira parte</a> sobre GPS vimos como este sistema de rastreamento por satélite funciona. Também aproveitamos para explicar o que é o protocolo NMEA, utilizado pelos sistemas de navegação global.
 
 Uma sentença NMEA é formada por caracteres passíveis de impressão e CR (carriage return) e LF (line feed). Toda sentença inicia com <code>$</code> e termina com &lt;CR&gt; &lt;LF&gt;. Existem três tipos básicos de sentenças: <em>talker sentences</em>, <em>proprietary sentences</em> e <em>query sentences</em>.
 

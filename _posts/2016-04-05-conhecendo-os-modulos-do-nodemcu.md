@@ -19,7 +19,7 @@ tags:
   - rtc
 ---
 
-O <a href="http://nodemcu.com/index_en.html" target="_blank">NodeMCU</a> é um firmware baseado no <a href="http://www.eluaproject.net/" target="_blank">eLua</a> para os dispositivos ESP8266. Se você deseja saber mais sobre o firmware recomendo a leitura do artigo <a href="/nodemcu-lua-para-o-esp8266/">NodeMCU: Lua para o ESP8266</a> que publiquei recentemente. Neste artigo o foco foi a apresentação do firmware e como fazer o flash do seu dispositivo.
+O <a href="http://nodemcu.com/index_en.html" target="_blank">NodeMCU</a> é um firmware baseado no <a href="http://www.eluaproject.net/" target="_blank">eLua</a> para os dispositivos ESP8266. Se você deseja saber mais sobre o firmware recomendo a leitura do artigo <a href="/nodemcu-lua-para-o-esp8266">NodeMCU: Lua para o ESP8266</a> que publiquei recentemente. Neste artigo o foco foi a apresentação do firmware e como fazer o flash do seu dispositivo.
 
 Com o decorrer dos projetos que fazem uso do ESP8266 e NodeMCU, eventualmente será necessário criar um firmware com módulos que não fazem parte da distribuição padrão. Sendo assim, o artigo de hoje visa explicar brevemente o que é cada um dos módulos disponíveis. Builds customizadas podem ser feitas através do site <a href="http://nodemcu-build.com/" target="_blank">NodeMCU custom builds</a>.
 
@@ -82,7 +82,7 @@ Na tabela a seguir é possível observar uma breve descrição sobre os módulos
 </tr>
 <tr>
 <td>MQTT</td>
-<td>Implementação do protocolo <a href="/mqtt-parte-1-o-que-e-mqtt/">MQTT</a></td>
+<td>Implementação do protocolo <a href="/mqtt-parte-1-o-que-e-mqtt">MQTT</a></td>
 </tr>
 <tr>
 <td>net</td>

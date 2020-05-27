@@ -24,10 +24,10 @@ Sendo assim, mudamos o padrão de links permanentes do WordPress de <strong>Dia 
 
 <strong>Como era</strong>
 
-<a href="/2015/05/13/samsung-anuncia-entrada-na-familia-arduino/" target="_blank">/2015/05/13/samsung-anuncia-entrada-na-familia-arduino/</a>
+<a href="/samsung-anuncia-entrada-na-familia-arduino" target="_blank">/2015/05/13/samsung-anuncia-entrada-na-familia-arduino/</a>
 
 <strong>Como ficou</strong>
 
-<a href="/samsung-anuncia-entrada-na-familia-arduino/" target="_blank">/samsung-anuncia-entrada-na-familia-arduino/</a>
+<a href="/samsung-anuncia-entrada-na-familia-arduino" target="_blank">/samsung-anuncia-entrada-na-familia-arduino</a>
 
 Na prática isto não deve mudar nada para você, pois criamos uma regra de reescrita de urls no Nginx. Porém em alguns casos talvez você pode cair em um link quebrando, se isto chegar a acontecer com você entre em contato conosco que iremos corrigir o problema o mais breve possível.

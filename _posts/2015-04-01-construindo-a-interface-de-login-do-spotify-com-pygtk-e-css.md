@@ -25,7 +25,7 @@ Primeiro iremos importar três bibliotecas <strong>Gtk</strong>, <strong>Gdk</st
 
 Precisaremos também de um modelo de interface, a não ser que se queira construir todos os objetos a mão, utilizaremos o glade. Veja o arquivo xml <a href="https://github.com/1pedro/spotify_app/blob/master/spotify_app.glade"> aqui</a> gerado pelo Glade.
 
-Como vocês já viram no post do glade (se não viram vale a pena conferir <a href="/2015/03/20/acelerando-o-desenvolvimento-com-glade/"> aqui</a>), não se deve carregar todos os objetos da interface, somente aqueles que precisarão de manipulação via código. Note que é importante também dar nomes aos objetos, assim fica mais fácil de aplicar as propriedades com base nesses nomes. veja no exemplo abaixo.
+Como vocês já viram no post do glade (se não viram vale a pena conferir <a href="/acelerando-o-desenvolvimento-com-glade"> aqui</a>), não se deve carregar todos os objetos da interface, somente aqueles que precisarão de manipulação via código. Note que é importante também dar nomes aos objetos, assim fica mais fácil de aplicar as propriedades com base nesses nomes. veja no exemplo abaixo.
 
 <script src="//gistfy-app.herokuapp.com/github/1pedro/spotify_app/spotify_app.py?&amp;slice=26:32" type="text/javascript"></script>
 Criaremos um novo tipo de objeto, o Pixbuf que como dito anteriormente adicionará imagens a interface.

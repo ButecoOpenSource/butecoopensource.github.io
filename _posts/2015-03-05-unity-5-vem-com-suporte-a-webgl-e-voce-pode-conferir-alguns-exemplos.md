@@ -15,7 +15,7 @@ tags:
   - webgl
 ---
 
-Recentemente comentamos sobre a <a href="/2015/02/28/unreal-engine-4-7-inclui-exportacao-para-html5/" target="_blank">Unreal Engine 4.7 incluir exportação para HTML5</a>. Desta vez quem está incluindo suporte a exportação para Web é o Unity 5.
+Recentemente comentamos sobre a <a href="/unreal-engine-4-7-inclui-exportacao-para-html5" target="_blank">Unreal Engine 4.7 incluir exportação para HTML5</a>. Desta vez quem está incluindo suporte a exportação para Web é o Unity 5.
 
 Esta nova versão da mais popular ferramenta de desenvolvimento de jogos inclui uma prévia do exportador para WebGL. Os desenvolvedores de jogos estão a um passo de publicar os seus jogos para a Web de uma nova forma, tirando proveito do WebGL e do <a title="asm.js" href="http://asmjs.org/" target="_blank">asm.js</a>.
 

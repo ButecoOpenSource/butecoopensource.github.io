@@ -16,13 +16,10 @@ Olá pessoa, segue uma dica para um problema que talvez alguns já tiveram. Onte
 Este post mostra como podemos fazer isto utilizando o <em>ffmpeg</em>, que é uma biblioteca para converter arquivos de video (pelo menos o que diz no man), mas que funciona também para editar arquivos de áudio.
 
 Para atingir meu objeto, executei o seguinte comando:
-<code></code>
 
-[sourcecode language="bash"]
+```bash
 ffmpeg -ss 00:00:40 -t 00:01:15 -i caminho/para/arquivo.mp3 -acodec copy /caminho/para/novo/arquivo.mp3
-[/sourcecode]
-
-&nbsp;
+```
 
 Explicando cada parâmetro:
 

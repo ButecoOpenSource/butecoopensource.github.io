@@ -103,7 +103,7 @@ Com o <strong>virsh</strong> é possível gerenciar essas VMs, com os seguintes 
 
 Entre vários outros comandos. Com o <strong>virsh</strong> é possível ainda manipular discos nas VMs, adicionando e removendo discos conforme a necessidade, alterar parâmetros de rede, criando e removendo interfaces e vários outros.
 
-O <strong>virsh</strong> se mostra realmente uma ótima ferramenta para gerenciar suas máquinas virtuais. Se você deseja uma ferramenta com interface gráfica não esquece de ver este <a href="/conhecendo-o-virt-manager/" target="_blank">artigo</a> sobre o virt-manager, que é basicamente um front-end para o <strong>virsh</strong>.
+O <strong>virsh</strong> se mostra realmente uma ótima ferramenta para gerenciar suas máquinas virtuais. Se você deseja uma ferramenta com interface gráfica não esquece de ver este <a href="/conhecendo-o-virt-manager" target="_blank">artigo</a> sobre o virt-manager, que é basicamente um front-end para o <strong>virsh</strong>.
 
 Espero que tenham gostado desta pequena explicação sobre o <strong>virsh</strong>. Até a próxima!
 

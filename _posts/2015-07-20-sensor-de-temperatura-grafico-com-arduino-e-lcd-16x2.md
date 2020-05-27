@@ -12,7 +12,7 @@ tags:
   - sensor
 ---
 
-Dando continuidade ao artigo <a href="/sensor-de-temperatura-e-umidade-no-arduino/" target="_blank">Sensor de temperatura e umidade no Arduino</a>, hoje vamos ver como utilizar um LCD 16x2 para exibir a temperatura e a umidade capturada pelo sensor DHT11.
+Dando continuidade ao artigo <a href="/sensor-de-temperatura-e-umidade-no-arduino" target="_blank">Sensor de temperatura e umidade no Arduino</a>, hoje vamos ver como utilizar um LCD 16x2 para exibir a temperatura e a umidade capturada pelo sensor DHT11.
 
 A grande diferença entre o artigo anterior e este é o uso do LCD, sendo assim, não há necessidade de conectar o Arduino ao PC só para saber a temperatura.
 

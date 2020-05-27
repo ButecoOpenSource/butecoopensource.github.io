@@ -110,4 +110,4 @@ FLUSH PRIVILEGES;</code>
 
 Pronto! Já demos o passo inicial para o nosso servidor do WordPress.
 
-Assine nosso <a href="/feed/" target="_blank">feed</a> e não perca a continuidade deste artigo. Até a próxima.
+Assine nosso <a href="/feed.xml" target="_blank">feed</a> e não perca a continuidade deste artigo. Até a próxima.

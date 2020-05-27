@@ -11,7 +11,7 @@ tags:
   - python
 ---
 
-Há alguns dias mostrei como <a href="/2014/12/19/enviando-sms-pelo-pagueveloz/" target="_blank">enviar SMS a partir do Python e outras linguagens</a>. Hoje vou mostrar como enviar emails pelo Python.
+Há alguns dias mostrei como <a href="/enviando-sms-pelo-pagueveloz" target="_blank">enviar SMS a partir do Python e outras linguagens</a>. Hoje vou mostrar como enviar emails pelo Python.
 
 O exemplo mostrado usará o módulo <a href="https://docs.python.org/2.7/library/smtplib.html" target="_blank">smtplib</a>.
 

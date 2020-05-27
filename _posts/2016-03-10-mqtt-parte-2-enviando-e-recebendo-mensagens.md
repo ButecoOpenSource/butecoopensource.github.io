@@ -20,7 +20,7 @@ tags:
   - python
 ---
 
-Na <a href="/mqtt-parte-1-o-que-e-mqtt/">primeira parte</a> sobre o protocolo MQTT (<em>Message Queue Telemetry Transport</em>) demos uma breve introdução ao assunto, explicando o seu funcionamento, <em>brokers</em> e <em>clients</em>.
+Na <a href="/mqtt-parte-1-o-que-e-mqtt">primeira parte</a> sobre o protocolo MQTT (<em>Message Queue Telemetry Transport</em>) demos uma breve introdução ao assunto, explicando o seu funcionamento, <em>brokers</em> e <em>clients</em>.
 
 Hoje o artigo é mais prático que teórico. Inicialmente vamos instalar/configurar o <em>broker</em> e após vamos criar em cliente MQTT que irá ser conectar ao <em>broker</em> para enviar ou receber mensagens.
 

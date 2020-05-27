@@ -34,7 +34,7 @@ Dado uma breve explicação do que é o Doctrine, e caso você já conheça ou t
 <h3>Integrando no Laravel</h3>
 Obs.: Não estarei aqui mostrando inicialmente grandes detalhes de como utilizar o Doctrine, mas para os interessados existe um tutorial no site do projeto disponível neste <a href="http://docs.doctrine-project.org/en/latest/#getting-started" target="_blank">link</a>.
 <h3>Mãos na massa</h3>
-Como de praxe vamos criar um novo projeto usando o composer, considerarei que você já o possui instalado, caso não, sugiro ver esse <a href="/controle-de-dependencia-em-php-usando-o-composer/">post</a>, após tudo instalado, execute o seguinte comando:
+Como de praxe vamos criar um novo projeto usando o composer, considerarei que você já o possui instalado, caso não, sugiro ver esse <a href="/controle-de-dependencia-em-php-usando-o-composer">post</a>, após tudo instalado, execute o seguinte comando:
 <pre>    <code>composer create-project laravel/laravel --prefer-dist tutorial-doctrine</code>
 </pre>
 Isto criará uma pasta chamada "tutorial-doctrine", fará o download do Laravel e fará a instalação de suas dependências.

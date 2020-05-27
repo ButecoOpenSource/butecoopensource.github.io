@@ -40,4 +40,4 @@ Para conferir a lista completa de alterações desta versão <a href="https://do
 </ul>
 Para conferir a lista completa de alterações desta versão <a href="https://docs.python.org/3.5/whatsnew/changelog.html#python-3-5-alpha-1" target="_blank">clique aqui</a>.
 
-Assine nosso <a href="/feed/" target="_blank">feed</a> e não perca nenhuma novidade sobre estas novas versões do Python.
+Assine nosso <a href="/feed.xml" target="_blank">feed</a> e não perca nenhuma novidade sobre estas novas versões do Python.

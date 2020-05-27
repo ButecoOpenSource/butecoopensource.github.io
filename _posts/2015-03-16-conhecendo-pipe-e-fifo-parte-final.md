@@ -16,7 +16,7 @@ tags:
   - terminal
 ---
 
-Esta é a última parte desta série de postagens que têm como foco explicar o funcionamento básicos de pipes e fifos no Linux. Se você não viu as primeiras duas partes, clique <a title="Parte 1" href="/2015/01/22/entendendo-pipe-e-fifo-parte-1/" target="_blank">aqui</a> e <a title="Parte 2" href="/2015/02/17/entendendo-pipe-e-fifo-parte-2/" target="_blank">aqui</a>.
+Esta é a última parte desta série de postagens que têm como foco explicar o funcionamento básicos de pipes e fifos no Linux. Se você não viu as primeiras duas partes, clique <a title="Parte 1" href="/entendendo-pipe-e-fifo-parte-1" target="_blank">aqui</a> e <a title="Parte 2" href="/entendendo-pipe-e-fifo-parte-2" target="_blank">aqui</a>.
 
 Nesta postagem será explicado o funcionamento do fifo. Fifos funcionam da mesma forma que os pipes. Sua única diferença é que eles são criados no sistema de arquivos. Por serem objetos de um sistema de arquivo, o fifo deve ter um nome por onde deve ser acessado. Por esta razão o fifo é também comumente chamado de <em>named pipe</em>. Como o fifo se trata de um arquivo, isso permite que processos não afiliados podem utilizar o canal para trocar informações. Isto não era permitido com a utilização dos pipes, pois o fifo existia somente no contexto dos processos criados a partir do processo que criava o pipe.
 

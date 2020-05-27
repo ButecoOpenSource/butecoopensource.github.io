@@ -14,7 +14,7 @@ tags:
   - terminal
 ---
 
-<p style="text-align: justify;">Esta é a segunda parte da postagem sobre Pipes e Fifos aqui do blog. Se ainda não viu a primeira parte, pode acessá-la por <a title="Entendendo Pipes e FIFOs (parte 1)" href="/2015/01/22/entendendo-pipe-e-fifo-parte-1/" target="_blank">aqui</a>. Nesta parte será explicado como processos podem ter seus dados interligados, exatamente como o shell faz no comando <em>ls | wc -l</em>. Para entender como este processo ocorre é necessário entender que existem três "arquivos" que são abertos quando um processo se inicia.</p>
+<p style="text-align: justify;">Esta é a segunda parte da postagem sobre Pipes e Fifos aqui do blog. Se ainda não viu a primeira parte, pode acessá-la por <a title="Entendendo Pipes e FIFOs (parte 1)" href="/entendendo-pipe-e-fifo-parte-1" target="_blank">aqui</a>. Nesta parte será explicado como processos podem ter seus dados interligados, exatamente como o shell faz no comando <em>ls | wc -l</em>. Para entender como este processo ocorre é necessário entender que existem três "arquivos" que são abertos quando um processo se inicia.</p>
 Estes arquivos são:
 <ul>
 	<li>entrada padrão ou <em>stdin</em> (file descriptor zero)</li>

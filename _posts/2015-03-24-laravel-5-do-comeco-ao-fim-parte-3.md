@@ -22,8 +22,8 @@ tags:
 
 Fala pessoal, hoje veremos finalmente a parte de Model e View do laravel 5, caso você não esteja familiarizado com o conceito de MVC veja as outras partes dessa série nos links abaixo:
 <ul>
-	<li><a href="/2015/02/18/tutorial-laravel-5/" target="_blank">Parte 1</a></li>
-	<li><a href="/2015/03/09/tutorial-laravel-5-parte-2/" target="_blank">Parte 2</a></li>
+	<li><a href="/tutorial-laravel-5" target="_blank">Parte 1</a></li>
+	<li><a href="/tutorial-laravel-5-parte-2" target="_blank">Parte 2</a></li>
 </ul>
 Considerando que anteriormente na parte 2 criamos um controller chamado <i>TarefaController</i>, criaremos agora o Model <i>Tarefa</i> que representará os registros da tabela Tarefa.
 

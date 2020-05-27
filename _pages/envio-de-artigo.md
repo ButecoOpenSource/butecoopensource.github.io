@@ -12,7 +12,7 @@ header:
 
 ## Como funciona?
 
-Qualquer pessoa pode enviar uma sugestão de artigo, desde que respeite nosso [Termo de Uso](/termos-de-uso/).
+Qualquer pessoa pode enviar uma sugestão de artigo, desde que respeite nosso [Termo de Uso](/termos-de-uso).
 
 Artigos devem possuir alguma relação com software livre e/ou área de TI.
 

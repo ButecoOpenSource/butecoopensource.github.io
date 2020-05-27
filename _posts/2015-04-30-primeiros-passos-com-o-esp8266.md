@@ -18,7 +18,7 @@ tags:
   - iot
 ---
 
-Dando continuidade ao artigo <a href="/2015/04/07/conheca-o-esp8266-um-modulo-wifi-por-menos-de-5-dolares/" target="_blank">sobre o ESP8266</a>, hoje irei mostrar os primeiros passos com este módulo. O primeiro passo e o mais importante é colocar ele pra funcionar. :D
+Dando continuidade ao artigo <a href="/conheca-o-esp8266-um-modulo-wifi-por-menos-de-5-dolares" target="_blank">sobre o ESP8266</a>, hoje irei mostrar os primeiros passos com este módulo. O primeiro passo e o mais importante é colocar ele pra funcionar. :D
 
 <strong>Material necessário</strong>
 

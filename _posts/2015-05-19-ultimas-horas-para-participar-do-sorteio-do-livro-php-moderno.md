@@ -14,7 +14,7 @@ tags:
   - php
 ---
 
-Nosso <a href="/2015/05/07/sorteio-do-livro-php-moderno/">sorteio</a> está quase chegando, e você já fez a sua inscrição?
+Nosso <a href="/sorteio-do-livro-php-moderno">sorteio</a> está quase chegando, e você já fez a sua inscrição?
 
 Não deixe de participar do sorteio do livro <a href="http://www.novatec.com.br/livros/phpmoderno/" target="_blank">PHP Moderno</a>.
 

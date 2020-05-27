@@ -19,7 +19,7 @@ tags:
   - wordpress
 ---
 
-Dando continuidade ao tutorial de instalação do LAMP no CentOS, hoje vamos ver como instalar o Apache. No tutorial anterior, vimos <a href="/2015/02/11/instalando-o-mariadb-no-centos-7/" target="_blank">como instalar o MariaDB</a>.
+Dando continuidade ao tutorial de instalação do LAMP no CentOS, hoje vamos ver como instalar o Apache. No tutorial anterior, vimos <a href="/instalando-o-mariadb-no-centos-7" target="_blank">como instalar o MariaDB</a>.
 
 O Apache é o mais bem-sucedido servidor web livre. Ele representa cerca de 47.20% dos servidores ativos no mundo. Além disso, é a principal tecnologia da <a href="http://www.apache.org/" target="_blank">Apache Software Foundation</a>.
 

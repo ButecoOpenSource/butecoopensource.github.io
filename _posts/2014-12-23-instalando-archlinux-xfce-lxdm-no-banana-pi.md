@@ -28,7 +28,7 @@ No meu caso, como estou usando saída HDMI apenas fiz o seguinte ajuste (em negr
 
 <pre><code>bootargs=console=ttyS0,115200 console=tty0 disp.screen0_output_mode=<strong>3</strong>:<strong>1360x768p50</strong> hdmi.audio=EDID:0 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4</code></pre>
 
-Caso você possua dúvidas sobre como configurar as saídas de vídeo siga <a href="/2014/12/10/primeiros-passos-com-o-banana-pi/" target="_blank">este tutorial</a>.
+Caso você possua dúvidas sobre como configurar as saídas de vídeo siga <a href="/primeiros-passos-com-o-banana-pi" target="_blank">este tutorial</a>.
 
 <strong>Acessando o ArchLinux</strong>
 

@@ -18,7 +18,7 @@ tags:
 
 A equipe do Rust acabou de anunciar a nova versão, a 1.0 Alpha. Rust é uma linguagem de programação focada em segurança. desempenho e concorrência.
 
-A versão Alpha já <a href="/2014/12/15/rust-1-0-sera-lancado-em-2015/" target="_blank">traz o prometido a algumas semanas atrás</a>. As funcionalidades da linguagem e as bibliotecas do core estão completas e estabilizadas.
+A versão Alpha já <a href="/rust-1-0-sera-lancado-em-2015" target="_blank">traz o prometido a algumas semanas atrás</a>. As funcionalidades da linguagem e as bibliotecas do core estão completas e estabilizadas.
 
 Apesar de tudo, ainda a muito a ser feito até o lançamento da versão 1.0 final.
 

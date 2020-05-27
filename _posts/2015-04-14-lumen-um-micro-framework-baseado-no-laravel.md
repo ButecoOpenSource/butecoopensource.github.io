@@ -28,7 +28,7 @@ Para vê-lo rodando pela primeira vez execute:
 <pre><code>php artisan serve</code></pre>
 O Lumen adota alguns dos padrões usados no próprio Laravel 5, veja nosso tutorial disponível nos links abaixo e comece agora mesmo a usá-lo, aguardem maiores novidades!
 <ul>
-	<li><a href="/2015/02/18/tutorial-laravel-5/" target="_blank">Laravel 5 do Começo ao Fim - Parte 1</a></li>
-	<li><a href="/2015/03/09/tutorial-laravel-5-parte-2/" target="_blank">Laravel 5 do Começo ao Fim - Parte 2</a></li>
-	<li><a href="/2015/03/24/laravel-5-do-comeco-ao-fim-parte-3/" target="_blank">Laravel 5 do Começo ao Fim - Parte 3</a></li>
+	<li><a href="/tutorial-laravel-5" target="_blank">Laravel 5 do Começo ao Fim - Parte 1</a></li>
+	<li><a href="/tutorial-laravel-5-parte-2" target="_blank">Laravel 5 do Começo ao Fim - Parte 2</a></li>
+	<li><a href="/aravel-5-do-comeco-ao-fim-parte-3" target="_blank">Laravel 5 do Começo ao Fim - Parte 3</a></li>
 </ul>
