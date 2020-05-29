@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Entendendo carros autônomos"
-excerpt: "Carros autônomos estão cada vez mais presentes em nossas vidas, mas o que é um carro autônomos de fato?"
-tagline: "Carros autônomos estão cada vez mais presentes em nossas vidas, mas o que é um carro autônomos de fato?"
+excerpt: "Carros autônomos estão cada vez mais presentes em nossas vidas, mas o que é um carro autônomo de fato?"
+tagline: "Carros autônomos estão cada vez mais presentes em nossas vidas, mas o que é um carro autônomo de fato?"
 date: 2020-05-28 08:00:00
 categories: Hardware
 tags: nvidia carros sensores hardware
@@ -16,13 +16,13 @@ header:
 
 Um carro autônomo é um carro capaz de identificar o ambiente ao seu redor e trafegar em segurança com nenhuma ou pouca iteração humana, combinando uma variedade de sensores para perceber o ambiente ao seu redor, dentre eles, podemos citar o uso de GPS, Lidar, Radar, Sonar e câmeras.
 
-Além disso, existem vários outros sensores para monitorar o próprio carro, como sensores de velocidade, freios, RPM, combustível, e demais sensores que estamos acostumados e que podem ser acessados em muitos carros atuais através do protocolo [ODB2](https://pt.wikipedia.org/wiki/OBD){:target="_blank"}.
+Além disso, existem vários outros sensores para monitorar o próprio carro, como sensores de velocidade, freios, RPM, combustível e demais sensores que estamos acostumados e que podem ser acessados em muitos carros atuais através do protocolo [ODB2](https://pt.wikipedia.org/wiki/OBD){:target="_blank"}.
 
 Carros autônomos não são feitos só de sensores, na verdade, sensores são apenas uma parte, ainda precisamos de um sistema de controle, como um sistema operacional, capaz de interpretar os dados coletados por diversos sensores e navegar o veículo de forma segura.
 
 Atualmente, não existem carros 100% autônomos em circulação, porém existem carros e caminhões semi autônomos em uso.
 
-Os freios de emergência ou EBA (Emergency brake assist) populares em caminhões, é um sistema semi autônomo capaz de parar um veículo em situações de risco onde o motorista não teve um tempo de resposta adequado ou não reagiu. EBA consiste em uma combinação de radares e câmeras instaladas na frente do caminhão, e já salvaram muitas vidas.
+Os freios de emergência ou EBA (Emergency brake assist) populares em caminhões, é um sistema semi autônomo capaz de parar um veículo em situações de risco onde o motorista não teve um tempo de resposta adequado ou não reagiu. EBA consiste em uma combinação de radares e câmeras instaladas na frente do caminhão. Essa tecnologia já salvou muitas vidas.
 
 Outro exemplo de sistema semi autônomo é o [Autopilot (piloto automático)](https://www.tesla.com/autopilot){:target="_blank"} dos carros da Tesla. O piloto automático é capaz de acelerar, frear e controlar o volante dentro de uma pista, porém esse é um sistema assistido, onde é necessário o condutor estar atento e com as mãos no volante. A Tesla inclui várias câmeras no carro, além de outros sensores e radares para que o piloto automático funcione.
 
@@ -70,7 +70,7 @@ A [Waymo](https://waymo.com){:target="_blank"} iniciou como um projeto dentro do
 
 Ainda podemos citar que todas as grandes fabricantes de veículos possuem algum programa similar, além de empresas como [Uber](https://www.uber.com/us/en/atg/technology/){:target="_blank"} e [Lyft](https://self-driving.lyft.com/){:target="_blank"}.
 
-Provavelmente você deve pensar que a NVDIA faz apenas GPU certo? Errado. A NVIDIA não só possui a sua própria frota de carros autônomos, ela é uma das líderes no quesito. A [NVIDIA DRIVE AGX](https://www.nvidia.com/en-us/self-driving-cars/drive-platform/hardware/){:target="_blank"} é um supercomputador embarcado capaz de processar dados de câmeras, radares, e sensores lidar e navegar um veículo de uma forma segura.
+Provavelmente você deve pensar que a NVDIA faz apenas GPU certo? Errado. A NVIDIA não só possui a sua própria frota de carros autônomos, ela é uma das líderes no quesito. A [NVIDIA DRIVE AGX](https://www.nvidia.com/en-us/self-driving-cars/drive-platform/hardware/){:target="_blank"} é um supercomputador embarcado capaz de processar dados de câmeras, radares e sensores lidar e navegar um veículo de uma forma segura.
 
 ## O que muda em nossas vidas?
 
@@ -84,7 +84,7 @@ Com uma frota totalmente autônoma, pode ser que você não precise mais ter um 
 
 ## Conclusão
 
-Veículos com nível 2 de automação já está em circulação, e é uma questão de poucos anos até termos veículos com nível 4 em circulação.
+Veículos com nível 2 de automação já está em circulação e é uma questão de poucos anos até termos veículos com nível 4 em circulação.
 
 Certamente, veículos autônomos são um tema um tanto quanto polêmico, ainda necessitamos nos adaptar a ideia de carros sem motoristas, mas as pessoas estão começando a perceber as vantagens, é uma questão de tempo até termos adoção em massa.
 
