@@ -24,8 +24,6 @@ Iremos seguir esse esquema de rede que fiz no<a href="https://www.gns3.com/" tar
 
 Estou utilizando um <a href="https://pt.wikipedia.org/wiki/Servidor_virtual_privado" target="_blank">SVP</a> - Servidor Virtual Privado (VPS - <em>Virtual Private Server</em>) para demonstrar a instalação e configuração, meu ambiente de instalação é um Debian 8.2.
 
-<!--more-->
-
 <em>Distributor ID: Debian</em>
 <em> Description: Debian GNU/Linux 8.2 (jessie)</em>
 <em> Release: 8.2</em>
@@ -208,7 +206,108 @@ Caso você cria o nome do servidor direrente de "server", lembre de mudar o nome
 
 Veja o arquivo de configuração.
 
-<script src="https://gist.github.com/danielmagevski/114ad4ad56600c281afb.js"></script>
+```sh
+##############################
+####### OpenVPN Server #######
+####### Site-to-Site##########
+##############################
+####### DANIEL MAGEVSKI ######
+##############################
+
+
+# Para testar os arquivos de configuracao:
+# openvpn --config /etc/openvpn/arquivo.conf
+
+# Para fazer NAT, execute:
+# sysctl -w net.ipv4.ip_forward=1
+# iptables -t nat -s $IP_REDE/$MASCARA_REDE -A POSTROUTING -o $PORTA_INTERNET -j MASQUERADE
+
+
+##############################
+#     Dados da conexão
+##############################
+
+
+# Interface da VPN
+dev tun0
+# Endereço IP servidor/filial
+ifconfig  $Ip-Servidor $IpFilial
+
+# Protocolo
+proto udp
+
+# Porta VPN
+port 1194
+
+# Parametro necessario para utilizar conexão com certificados X509
+tls-server
+
+# Caminho para o arquivo contendo parametros Diffie Hellman
+dh /etc/openvpn/easy-rsa/keys/dh2048.pem
+
+# Local do arquivo de certificado (.crt) da unidade certificadora
+ca /etc/openvpn/easy-rsa/keys/ca.crt
+
+# Local do arquivo de certificado (.crt) do servidor
+cert /etc/openvpn/easy-rsa/keys/$server.crt
+
+# Local da chave (.key) do servidor. Este arquivo deve ser mantido secreto
+key /etc/openvpn/easy-rsa/keys/$server.key
+
+##############################
+#   Qualidade da conexão
+##############################
+
+
+# Pinga o host remoto a cada $x segundos sem atividade na rede, se ele
+# nao responder por $z segundos a conexão é reiniciada.
+# Quando a conexão é interrompida o cliente tenta restabelece-la  periodicamente
+# Uso: keepalive $x $z
+keepalive 10 120
+
+# Compacta os dados da conexão utilizando o pacote lzo (deve estar
+# instalado no host)
+# Se estiver habilitado no servidor, o cliente também deve habilitar
+comp-lzo
+
+# mantem as chaves carregadas mesmo durante o reinicio do serviço.
+persist-key
+
+# mantem o tunel aberto mesmo durante o reinicio do serviço.
+persist-tun
+
+# Fica tentando, indefinidamente, resolver o nome do host do servidor. Útil
+# em hosts que não estão permanentemente conectados à internet.
+resolv-retry infinite
+
+# Mantem o tunel aberto mesmo se o ip do outro host mudar
+float
+
+# É uma boa prática diminuir os privilégios do OpenVPN após a inicialização.
+user nobody 
+group nogroup
+
+# Define o quão verboso será o log.
+# 0 é silencioso, exceto por erros fatais
+# 4 é rasoável para o uso geral
+# 5 e 6 podem ajudá-lo a debugar problemas de conexão
+# 9 é extremamente verboso
+verb 3
+
+
+# Informações de status da conexão
+status /var/log/openvpn/matriz-staus.log
+# Arquivo de log
+log-append /var/log/openvpn/matriz.log
+
+##############################
+####    Referências   ########
+##############################
+
+# http://tobias.ws/blog/acesso-seguro-a-internet-atraves-do-openvpn/
+# http://openvpn.net/howto.html#mitm
+# http://www.hardware.com.br/tutoriais/openvpn_2/
+```
 
 Agora vamos adicionar a rota, criando um arquivo dentro do diretório /etc/init.d:
  <code>echo "route add -net 192.168.1.0 netmask 255.255.255.0 gw 10.8.0.1 dev tun0" &gt; /etc/init.d/rota &amp;&amp; chmod +x rota &amp;&amp; update-rc.d rota defaults</code>
@@ -225,13 +324,122 @@ Precisamos compartilhar a internet do servidor, execute:
 
 <strong>Configuração no cliente</strong>
 
-Crie o arquivo client.ovpn e lembre de substituir e $Cliente nos parâmentos cert e key, $Servidor no remote
+Crie o arquivo client.ovpn e lembre de substituir e $Cliente nos parâmentos cert e key, $Servidor no remote.
 
 Veja o arquivo de configuração.
 
-Qualquer dúvida escreva nos comentários.
 
-<script src="https://gist.github.com/danielmagevski/dcc4e80ddf088f59d54b.js">// <![CDATA[
+```sh
+##############################
+####### OpenVPN Server #######
+####### Site-to-Site##########
+##############################
+####### DANIEL MAGEVSKI ######
+##############################
+
+##############################
+##### Dados da conexão  ######
+##############################
+
+
+# Define que esta máquina é um cliente
+client
+
+# Endereço do servidor
+remote  $Servidor 1194 #Por padrão a porta é 1194
+
+# Interface da VPN
+dev tun0
+
+# Endereço IP filial/servidor
+ifconfig $IpFilial $Ip-Servidor 
+
+# Protocolo
+proto udp
+
+nobind
+
+# Se você está conetando à internet através de um proxy HTTP, defina o parâmetro
+# http-proxy.
+# http-proxy-retry faz com que uma nova tentativa seja feita em casa de falha
+# de conexão
+;http-proxy-retry
+;http-proxy $ip $porta
+
+
+##############################
+#      Certificados X509
+##############################
+
+# Local do arquivo dh.pem
+dh dh2048.pem
+
+# Local do arquivo de certificado (.crt) da unidade certificadora
+ca ca.crt
+
+# Local do arquivo de certificado (.crt) do cliente
+cert filial.crt
+
+# Local da chave (.key) do cliente. Este arquivo deve ser mantido secreto
+key filial.key
+
+
+##############################
+#   Qualidade da conexão
+##############################
+
+# Pinga o host remoto a cada $x segundos sem atividade na rede, se ele
+# nao responder por $z segundos a conexão é reiniciada.
+# Quando a conexão é interrompida o cliente tenta restabelece-la  periodicamente
+# Uso: keepalive $x $z
+keepalive 10 120
+
+# Compacta os dados da conexão utilizando o pacote lzo (deve estar
+# instalado no host)
+# Se estiver habilitado no servidor, o cliente também deve habilitar
+comp-lzo
+
+# mantem as chaves carregadas mesmo durante o reinicio do serviço.
+persist-key
+
+# mantem o tunel aberto mesmo durante o reinicio do serviço.
+persist-tun
+
+# Fica tentando, indefinidamente, resolver o nome do host do servidor. Útil
+# em hosts que não estão permanentemente conectados à internet.
+resolv-retry infinite
+
+# mantem o tunel aberto mesmo se o ip do outro host mudar
+float
+
+##############################
+#           Outros
+##############################
+
+# Define o quão verboso será o log.
+# 0 é silencioso, exceto por erros fatais
+# 4 é rasoável para o uso geral
+# 5 e 6 podem ajudá-lo a debugar problemas de conexão
+# 9 é extremamente verboso
+verb 3
+
+# Informações de status da conexão
+status openvpn-status.log
+#status /var/log/openvpn/matriz-staus.log
+# Arquivo de log
+;log         openvpn.log
+;log-append  openvpn.log
+
+
+##############################
+####    Referências   ########
+##############################
+
+# http://tobias.ws/blog/acesso-seguro-a-internet-atraves-do-openvpn/
+# http://openvpn.net/howto.html#mitm
+# http://www.hardware.com.br/tutoriais/openvpn_2/
+```
+
 Agora vamos adicionar a rota crie um arquivo rota
 
 <code> echo "route add -net 192.168.0.0 netmask 255.255.255.0 gw 10.8.0.2 dev tun0" &gt; /etc/init.d/rota &amp;&amp; chmod +x rota &amp;&amp; update-rc.d rota defaults </code>
@@ -241,5 +449,4 @@ Agora vamos acessa-la, entra dentro do diretório onde está as chaves e digite,
 
 Ele irá imprimir na tela os dados na conexão, se tudo ocorreu bem aparecerá, <strong>Initialization Sequence Completed</strong>
 
-&nbsp;
-// ]]></script>
+Qualquer dúvida escreva nos comentários.

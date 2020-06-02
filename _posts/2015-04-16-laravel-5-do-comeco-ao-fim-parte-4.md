@@ -40,7 +40,22 @@ Na raiz do projeto você verá que existe uma pasta chamada "tests", como é de 
 
 Inicialmente você verá dentro desta pasta basicamente dois arquivos: "ExampleTest.php" e "TestCase.php", abra o primeiro arquivo, você verá algo como o mostrado abaixo.
 
-<script src="https://gist.github.com/jaschweder/bf685204febc90211865.js"></script>
+
+```php
+<?php
+class ExampleTest extends TestCase {
+  /**
+   * A basic functional test example.
+   *
+   * @return void
+   */
+  public function testBasicExample()
+  {
+    $response = $this->call('GET', '/');
+    $this->assertEquals(200, $response->getStatusCode());
+  }
+}
+```
 
 Como podemos ver, neste arquivo existe uma classe chamada "ExampleTest", uma classe de exemplo que vem por padrão na instalação do laravel, essa classe estende de outra classe chamada "TestCase", a classe da qual todos seus testes devem estender, que está no outro arquivo presente nesta mesma pasta.
 
