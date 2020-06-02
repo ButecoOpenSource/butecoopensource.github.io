@@ -11,9 +11,7 @@ tags:
   - python
 ---
 
-Há alguns dias mostrei como <a href="/enviando-sms-pelo-pagueveloz" target="_blank">enviar SMS a partir do Python e outras linguagens</a>. Hoje vou mostrar como enviar emails pelo Python.
-
-O exemplo mostrado usará o módulo <a href="https://docs.python.org/2.7/library/smtplib.html" target="_blank">smtplib</a>.
+Hoje iremos enviar emails com Python. O exemplo mostrado usará o módulo <a href="https://docs.python.org/2.7/library/smtplib.html" target="_blank">smtplib</a>.
 
 Vale ressaltar que o exemplo é indicado para envio de email mais simples, para enviar email com formatações especiais e anexos é recomendado o uso do módulo <a href="https://docs.python.org/2.7/library/email.html" target="_blank">email</a>. Abordarei este módulo em uma outra publicação.
 
@@ -25,40 +23,40 @@ Agora que já demos uma boa introdução sobre o módulo <em>smtplib</em> vamos 
 
 Inicialmente vamos importar o módulo:
 
-[python]
+```py
 import smtplib
-[/python]
+```
 
 Vamos criar a instância do SMTP de acordo com a forma de autenticação:
 
 <strong>TLS</strong>
 
-[python]
+```py
 smtp = smtplib.SMTP('localhost', 587)
 smtp.starttls()
-[/python]
+```
 
 <strong>SSL</strong>
 
-[python]
+```py
 smtp = smtplib.SMTP_SSL('localhost', 465)
-[/python]
+```
 
 <strong>Sem autenticação</strong>
 
-[python]
+```py
 smtp = smtplib.SMTP('localhost', 25)
-[/python]
+```
 
 Se escolhemos TLS ou SSL devemos fazer a autenticação:
 
-[python]
+```py
 smtp.login('usuário', 'senha')
-[/python]
+```
 
 Caso seja sem autenticação devemos nos identificar enviando o comando EHLO ou HELO:
 
-[python]
+```py
 # EHLO
 smtp.ehlo()
 
@@ -67,37 +65,79 @@ smtp.helo()
 
 # De forma genérica. Tenta EHLO primeiro.
 smtp.ehlo_or_helo_if_needed()
-[/python]
+```
 
 Não há necessidade de chamar os métodos <code>ehlo</code> ou <code>helo</code> quando se utiliza SSL ou TLS, pois o método login faz a chamada desses métodos caso seja necessário.
 
 Enviando um email:
 
-[python]
-msg = &amp;quot;&amp;quot;&amp;quot;From: Seu Nome &amp;lt;seuemail@seudominio.com.br&amp;gt;
+```py
+msg = '''From: Seu Nome <seuemail@seudominio.com.br>
 To: outroemail@seudominio.com.br
 Subject: Buteco Open Source
 
-Email de teste do Buteco Open Source&amp;quot;&amp;quot;&amp;quot;
+Email de teste do Buteco Open Source'''
 
 smtp.sendmail('seuemail@seudominio.com.br', ['outroemail@seudominio.com.br'], msg)
-[/python]
+```
 
 Note que o segundo parâmetro do método <code>sendmail</code> deve ser uma lista. Mesmo que o destinatário seja apenas um.
 
 Finalizando a sessão SMTP:
 
-[python]
+```py
 smtp.quit()
-[/python]
+```
 
 Agora que já sabemos quais partes usar, vamos colocar tudo em prática em um exemplo. No exemplo vou utilizar o Gmail como servidor SMTP, mas você pode utilizar outro de sua preferência.
 
 Abaixo você pode verificar como enviar usando TLS:
 
-<script src="//gistfy-app.herokuapp.com/github/ButecoOpenSource/python-email/email-smtplib-tls.py" type="text/javascript"></script>Já neste outro exemplo você pode verificar como enviar via SSL:<script src="//gistfy-app.herokuapp.com/github/ButecoOpenSource/python-email/email-smtplib-ssl.py" type="text/javascript"></script>
+```py
+import smtplib
+
+smtp = smtplib.SMTP('smtp.gmail.com', 587)
+smtp.starttls()
+
+smtp.login('seuemail@gmail.com', 'suasenha')
+
+de = 'seuemail@gmail.com'
+para = ['seuemail@gmail.com']
+msg = """From: %s
+To: %s
+Subject: Buteco Open Source
+
+Email de teste do Buteco Open Source.""" % (de, ', '.join(para))
+
+smtp.sendmail(de, para, msg)
+
+smtp.quit()
+```
+
+Já neste outro exemplo você pode verificar como enviar via SSL:
+
+```py
+import smtplib
+
+smtp = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+
+smtp.login('seuemail@gmail.com', 'suasenha')
+
+de = 'seuemail@gmail.com'
+para = ['seuemail@gmail.com']
+msg = """From: %s
+To: %s
+Subject: Buteco Open Source
+
+Email de teste do Buteco Open Source.""" % (de, ', '.join(para))
+
+smtp.sendmail(de, para, msg)
+
+smtp.quit()
+```
 
 Confira abaixo uma lista dos servidores de email mais comuns e suas configurações.
+
 <table>
 <thead>
 <tr class="header">
@@ -152,4 +192,7 @@ Confira abaixo uma lista dos servidores de email mais comuns e suas configuraç�
 </tr>
 </tbody>
 </table>
-Espero que você tenha gostado desta publicação. Continue acompanhando que faremos uma continuação falando sobre o módulo <a href="https://docs.python.org/2.7/library/email.html" target="_blank">email</a>.
+
+Espero que você tenha gostado desta publicação.
+
+Continue acompanhando que faremos uma continuação falando sobre o módulo <a href="https://docs.python.org/2.7/library/email.html" target="_blank">email</a>.

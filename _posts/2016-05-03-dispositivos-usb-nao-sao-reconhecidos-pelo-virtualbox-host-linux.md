@@ -21,8 +21,6 @@ O <a href="https://www.virtualbox.org/" target="_blank">VirtualBox</a> é uma da
 
 Porém no Linux, em alguns casos o reconhecimento de dispositivos USB, Webcam e leitores SD Card do host no sistema guest não funciona. Esse problema é geralmente causado por falta de permissão no seu usuário no momento da execução do VirtualBox.
 
-<!--more-->
-
 <strong>VirtualBox Extension Pack</strong>
 
 Primeiro vamos instalar o pacote de extensão que adiciona suporte a USB 2.0 e 3.0, VirtualBoxRDP e PXE boot. Faça o <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">download do VirtualBox Extension Pack</a> para a versão do seu VirtualBox.
@@ -35,9 +33,11 @@ Aguarde a instalação.
 
 <strong>Adicionando seu usuário ao grupo vboxusers</strong>
 
-Primeiro vamos descobrir se seu usuário pertence ao grupo <em>vboxusers</em>. Para isto execute o comando:
+Primeiro vamos descobrir se seu usuário pertence ao grupo <em>vboxusers</em>.
 
-<code>groups SEU_USUARIO</code>
+Para isto execute o comando abaixo no terminal:
+
+<code>$ groups SEU_USUARIO</code>
 
 O resultado deverá ser algo similar ao abaixo:
 
@@ -47,11 +47,11 @@ Se nesta linha incluir o <em>vboxusers</em> já está tudo certo.
 
 Caso não, vamos adicionar seu usuário ao grupo com o comando:
 
-<code>sudo adduser SEU_USUARIO vboxusers</code>
+<code>$ sudo adduser SEU_USUARIO vboxusers</code>
 
 ou
 
-<code>usermod SEU_USUARIO -a -G vboxusers</code>
+<code>$ usermod SEU_USUARIO -a -G vboxusers</code>
 
 Após isto, faça logoff ou reinicie o computador.
 

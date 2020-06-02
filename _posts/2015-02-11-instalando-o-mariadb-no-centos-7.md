@@ -21,12 +21,14 @@ tags:
 Hoje vamos dar início a uma série de artigos sobre como configurar um servidor Web. No meu caso utilizarei o <a title="CentOS" href="http://www.centos.org/" target="_blank">CentOS 7</a>, mas este artigo pode ser usado como base para a instalação em outras distribuições.
 
 O conteúdo será divido em 4 partes. Sendo:
+
 <ol>
-	<li>Instalação e configuração do <a href="https://mariadb.org/pt-br/" target="_blank">MariaDB</a></li>
-	<li>Instalação e configuração do <a href="http://www.apache.org/" target="_blank">Apache</a></li>
-	<li>Instalação e configuração do <a href="https://br.wordpress.org/" target="_blank">WordPress</a></li>
-	<li>Instalação e configuração do <a href="http://www.phpmyadmin.net/home_page/index.php" target="_blank">phpMyAdmin</a></li>
+  <li>Instalação e configuração do <a href="https://mariadb.org/pt-br/" target="_blank">MariaDB</a></li>
+  <li>Instalação e configuração do <a href="http://www.apache.org/" target="_blank">Apache</a></li>
+  <li>Instalação e configuração do <a href="https://br.wordpress.org/" target="_blank">WordPress</a></li>
+  <li>Instalação e configuração do <a href="http://www.phpmyadmin.net/home_page/index.php" target="_blank">phpMyAdmin</a></li>
 </ol>
+
 Agora que você já sabe o que está por vir, vamos dar início a instalação do MariaDB.
 
 O MariaDB é um servidor de banco de dados que oferece as mesmas funcionalidades do MySQL. Na verdade ele é um fork do MySQL, feito após a sua compra pela Oracle. O MariaDB é desenvolvido pela comunidade de software livre e por alguns dos autores originais do MySQL.
@@ -55,7 +57,9 @@ Note que este passo solicita a configuração de outros itens, então iremos por
 
 Inicialmente será solicitado a senha do <em>root</em>, conforme abaixo:
 
-<code>NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
+<pre>
+<code>
+NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
 SERVERS IN PRODUCTION USE! PLEASE READ EACH STEP CAREFULLY!
 
 In order to log into MariaDB to secure it, we'll need the current
@@ -63,16 +67,22 @@ password for the root user. If you've just installed MariaDB, and
 you haven't set the root password yet, the password will be blank,
 so you should just press enter here.
 
-Enter current password for root (enter for none):</code>
+Enter current password for root (enter for none):
+</code>
+</pre>
 
 Apenas aperte Enter, pois não existe uma senha definida.
 
 Após isso, será solicitado se você deseja definir uma nova senha do <em>root</em>, conforme abaixo:
 
-<code>Setting the root password ensures that nobody can log into the MariaDB
-root user without the proper authorisation.</code>
+<pre>
+<code>
+Setting the root password ensures that nobody can log into the MariaDB
+root user without the proper authorisation.
 
 Set root password? [Y/n]
+</code>
+</pre>
 
 Escolha <strong>Y</strong> e defina uma nova senha.
 

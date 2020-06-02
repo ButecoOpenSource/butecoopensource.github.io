@@ -14,11 +14,7 @@ tags:
 
 <a href="/assets/wp-content/uploads/2015/06/password-error.jpg"><img class=" size-full wp-image-2673 aligncenter" src="/assets/wp-content/uploads/2015/06/password-error.jpg" alt="password-error" width="299" height="168" /></a>
 
-&nbsp;
-
 Dica rápida para este processo, trivial do cotidiano de um administrador que pega ambientes dos quais não existem documentações, ou daqueles como eu que se esquecem da senha do root de sua máquina virtualizada... XD
-
-<!--more-->
 
 No grub entre no modo de edição da parametrização do boot do kernel que você utiliza. Pressionando "E".
 
@@ -34,19 +30,19 @@ Na sequência ele deve iniciar o sistema operacional no no modo de quebra, para 
 
 No modo de quebra, montamos o disco do nosso sistema no modo de escrita.
 
-<code>#mount -o remount,rw /sysroot</code>
+<code># mount -o remount,rw /sysroot</code>
 
 Utilizamos o <strong>chroot</strong> para alternar as pasta raíz do sistema, para que possamos utilizar dos programas de onde o sistema operacional se encontra instalado no disco.
 
-<code>#chroot /sysroot</code>
+<code># chroot /sysroot</code>
 
 A próxima etapa é alterar a senha com o comando <strong>passwd</strong>.
 
-<code>#passwd</code>
+<code># passwd</code>
 
 Na sequência remontamos a raiz do sistema no modo de leitura.
 
-<code>#mount -o remount,ro /</code>
+<code># mount -o remount,ro /</code>
 
 Por fim saímos do <strong>chroot </strong> e do modo <strong>rd.break</strong> executando duas vezes o comando <strong>exit</strong>. E o sistema em sequência deve carregar o ambiente agora com a nova senha de root.
 
