@@ -5,7 +5,7 @@
         {% if link.title and link.url %}
           <li>
             <a href="{{ link.url }}"
-               rel="nofollow noopener noreferrer"
+               rel="nofollow"
                title="{{ link.title }}">
               <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
             </a>
@@ -37,7 +37,7 @@
             {% assign link_url = link.url | relative_url %}
           {% endif %}
           <li>
-            <a href="{{ link_url }}" rel="nofollow noopener noreferrer">
+            <a href="{{ link_url }}">
               <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.title }}
             </a>
           </li>
@@ -57,7 +57,7 @@
             {% assign link_url = link.url | relative_url %}
           {% endif %}
           <li>
-            <a href="{{ link_url }}" rel="nofollow noopener noreferrer">
+            <a href="{{ link_url }}">
               <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.title }}
             </a>
           </li>

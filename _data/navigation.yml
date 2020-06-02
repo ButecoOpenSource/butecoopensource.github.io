@@ -43,9 +43,9 @@ social:
   # - title: "Bitbucket"
   #   icon: "fab fa-fw fa-bitbucket"
   #   url:
-  - title: "Newsletter"
-    icon: "far fa-fw fa-newspaper"
-    url: "https://tinyletter.com/butecopensource"
+  - title: "Google Groups"
+    icon: "fab fa-fw fa-google"
+    url: "https://groups.google.com/forum/#!forum/butecopensource"
 
 footer:
   - title: 'Contato'

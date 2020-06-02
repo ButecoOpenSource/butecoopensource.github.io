@@ -35,7 +35,7 @@
 
         {% if user.twitter %}
           <li>
-            <a href="https://twitter.com/{{ user.twitter }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="Twitter">
+            <a href="https://twitter.com/{{ user.twitter }}" itemprop="sameAs" rel="nofollow" title="Twitter">
               <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
             </a>
           </li>
@@ -43,7 +43,7 @@
 
         {% if user.facebook %}
           <li>
-            <a href="https://www.facebook.com/{{ user.facebook }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="Facebook">
+            <a href="https://www.facebook.com/{{ user.facebook }}" itemprop="sameAs" rel="nofollow" title="Facebook">
               <i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i>
             </a>
           </li>
@@ -51,7 +51,7 @@
 
         {% if user.linkedin %}
           <li>
-            <a href="https://www.linkedin.com/in/{{ user.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="LinkedIn">
+            <a href="https://www.linkedin.com/in/{{ user.linkedin }}" itemprop="sameAs" rel="nofollow" title="LinkedIn">
               <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
             </a>
           </li>
@@ -59,7 +59,7 @@
 
         {% if user.github %}
           <li>
-            <a href="https://github.com/{{ user.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="GitHub">
+            <a href="https://github.com/{{ user.github }}" itemprop="sameAs" rel="nofollow" title="GitHub">
               <i class="fab fa-fw fa-github" aria-hidden="true"></i>
             </a>
           </li>
@@ -67,7 +67,7 @@
 
         {% if user.gitlab %}
           <li>
-            <a href="https://gitlab.com/{{ user.gitlab }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="GitLab">
+            <a href="https://gitlab.com/{{ user.gitlab }}" itemprop="sameAs" rel="nofollow" title="GitLab">
               <i class="fab fa-fw fa-gitlab" aria-hidden="true"></i>
             </a>
           </li>
@@ -75,7 +75,7 @@
 
         {% if user.bitbucket %}
           <li>
-            <a href="https://bitbucket.org/{{ user.bitbucket }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="Bitbucket">
+            <a href="https://bitbucket.org/{{ user.bitbucket }}" itemprop="sameAs" rel="nofollow" title="Bitbucket">
               <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i>
             </a>
           </li>
@@ -83,7 +83,7 @@
 
         {% if user.stackoverflow %}
           <li>
-            <a href="https://stackoverflow.com/users/{{ user.stackoverflow }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="Stack Overflow">
+            <a href="https://stackoverflow.com/users/{{ user.stackoverflow }}" itemprop="sameAs" rel="nofollow" title="Stack Overflow">
               <i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i>
             </a>
           </li>
@@ -91,7 +91,7 @@
 
         {% if user.steam %}
           <li>
-            <a href="https://steamcommunity.com/id/{{ user.steam }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="Steam">
+            <a href="https://steamcommunity.com/id/{{ user.steam }}" itemprop="sameAs" rel="nofollow" title="Steam">
               <i class="fab fa-fw fa-steam" aria-hidden="true"></i>
             </a>
           </li>
@@ -100,13 +100,13 @@
         {% if user.youtube %}
           {% if user.youtube contains "://" %}
             <li>
-              <a href="{{ user.youtube }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="YouTube">
+              <a href="{{ user.youtube }}" itemprop="sameAs" rel="nofollow" title="YouTube">
                 <i class="fab fa-fw fa-youtube" aria-hidden="true"></i>
               </a>
             </li>
           {% else %}
             <li>
-              <a href="https://www.youtube.com/user/{{ user.youtube }}" itemprop="sameAs" rel="nofollow noopener noreferrer" title="YouTube">
+              <a href="https://www.youtube.com/user/{{ user.youtube }}" itemprop="sameAs" rel="nofollow" title="YouTube">
                 <i class="fab fa-fw fa-youtube" aria-hidden="true"></i>
               </a>
             </li>
