@@ -23,8 +23,13 @@ Iremos realizar um sorteio em parceria com a [Novatec][novatec]{:target="_blank"
 
 Para participar basta preencher o formulário abaixo, quanto mais ações você fizer maior será a sua chance.
 
-<a class="e-widget no-button" href="https://gleam.io/bJjUZ/sorteio-novatec-python-levado-a-serio" rel="nofollow">Sorteio Novatec - Python Levado a Sério</a>
+<a class="e-widget no-button"
+   href="https://gleam.io/bJjUZ/sorteio-novatec-python-levado-a-serio"
+   rel="nofollow">Clique aqui para participar do Sorteio Novatec - Python Levado a Sério</a>
+
 <script type="text/javascript" src="https://widget.gleamjs.io/e.js" async="true"></script>
+
+Caso o formulário não apareça <a href="https://gleam.io/bJjUZ/sorteio-novatec-python-levado-a-serio">clique aqui</a>.
 
 ## Resenha
 
