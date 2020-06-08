@@ -144,7 +144,7 @@ Primeiramente crie um novo arquivo chamado <i>create.blade.php</i> na mesma past
     <input type="text" name="titulo">
     <label for="corpo">Corpo:</label>
     <input type="text" name="corpo">
-    <input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
+    <input type="hidden" name="_token" id="csrf-token" value="{ Session::token() }" />
     <input type="submit">
   </form>
 </body>
