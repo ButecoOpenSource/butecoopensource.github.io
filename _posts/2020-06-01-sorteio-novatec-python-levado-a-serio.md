@@ -31,6 +31,10 @@ Para participar basta preencher o formulário abaixo, quanto mais ações você 
 
 Caso o formulário não apareça <a href="https://gleam.io/bJjUZ/sorteio-novatec-python-levado-a-serio">clique aqui</a>.
 
+### Resultado
+
+O ganhador do sorteio foi o Davi Cardoso, de SP.
+
 ## Resenha
 
 Aperfeiçoe suas habilidades com Python enquanto explora minuciosamente essa linguagem de programação com [Python Levado a Sério][livro-python]{:target="_blank"}.
