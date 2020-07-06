@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Guia completo de Debug em Python"
-date: 2020-07-10 08:00:00
+date: 2020-07-08 08:00:00
 categories: Python
 tags:
   - python
