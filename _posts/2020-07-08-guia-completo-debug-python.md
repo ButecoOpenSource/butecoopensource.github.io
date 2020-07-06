@@ -10,6 +10,8 @@ permalink: guia-completo-debug-python
 author: jaswdr
 header:
   overlay_color: "#356fa0"
+  show_overlay_excerpt: true
+  image: /assets/content/python-logo.png
 ---
 
 Uma das atividades que mais realizamos durante o desenvolvendo é o debug para analisar algum erro ou até mesmo saber se o código esta executando da forma que gostaríamos. Existem diversas técnicas e ferramentas no mundo Python para ajudar nessa tarefa e hoje iremos discutir algumas delas para facilitar sua vida.
