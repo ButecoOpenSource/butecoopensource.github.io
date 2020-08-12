@@ -37,13 +37,17 @@ O Kubernetes não é um PaaS (Platform as a Service), porém ele provê algumas 
 
 ### Cluster
 
-Quando você instala Kubernetes você tem um cluster. Um cluster geralmente consiste em múltiplas máquinas, porém é possível ter um cluster de apenas uma máquina com [minikube][minikube].
+Quando você instala Kubernetes você tem um cluster.
+
+Um cluster geralmente contém múltiplas máquinas. Para o Control Plane o ideal é alta disponibilidade, e para isso é necessário possuir pelo menos dois *master node*. Para a execução de suas aplicações, irá depender do tamanho do seu projeto, mas o ideal também é dois *worker node*, totalizando quatro máquinas.
+
+Em casos mais específicos é possível criar um cluster Kubernetes com apenas uma máquina, ou até mesmo utilizando um Raspberry Pi.
 
 ### Pod
 
 Um [Pod][pod], em resumo, é uma instância da sua aplicação no cluster.
 
-[Pod][pod] é o menor objeto no modelo de objetos do Kubernetes. Além disso, ele encapsula o container (um ou mais), armazenamento, redes e tudo o que for necessário para executar uma aplicação.
+[Pod][pod] é o menor objeto no modelo de objetos do Kubernetes. Ele encapsula um ou mais containers, armazenamento, redes e tudo o que for necessário para executar uma aplicação.
 
 ### Control Plane
 
@@ -69,21 +73,21 @@ Kubernetes Node, também referido como Worker Node e Compute Machine, é respons
 
 No node temos os seguintes componentes:
 
-* [kubelet][kubelet] — Agente que está presente em todo *worker node* e é responsável por garantir que os Pods estão rodando, além de se comunicar com o *master node*
+* [kubelet][kubelet] — Agente que está presente em todo *worker node* e é responsável por gerenciar os Pods estão rodando, além de se comunicar com o *master node*
 * [kube-proxy][kube-proxy] — Proxy de rede que mantém regras e permite a comunicação com Pods dentro e fora da rede
 * Container runtime — Software responsável por executar os containers, alguns suportados pelo Kubernetes são o [Docker][docker], [containerd][containerd] e o [CRI-O][CRI-O]
 
 ### Objetos
 
-No Kubernetes existe uma série de abstrações que representam o estado de todo o sistema. Os objetos são responsáveis por especificar como as aplicações, serviços, armazenamento, redes, permissões e outros itens irão se comportar no seu cluster.
+No Kubernetes existe uma série de abstrações que representam o estado de todo o sistema. Os objetos são responsáveis por especificar como as aplicações, serviços, volumes de armazenamento, redes, permissões e outros itens irão se comportar no seu cluster.
 
 Alguns exemplos de objetos comumente usados são:
 
-* [Namespace][namespace] — Separação de aplicações por ambientes
-* [Deployment][deployment] — Define a sua aplicação, imagem Docker, parâmetros, réplicas, e mais
-* [Service][service] — Expõe sua aplicação como um serviço de rede
+* [Namespace][namespace] — Separação lógica de aplicações por ambientes
+* [Deployment][deployment] — Define o estado desejado de um Pod, quantidade de réplicas, e mais
+* [Service][service] — Expõe sua aplicação como um serviço na rede
 * [Ingress][ingress] — Expões sua aplicação para acesso externo, define rotas, balanceamento de carga e mais
-* [Volume][volume] — Gerencia o volume de armazenamento dos dados da sua aplicação
+* [Volumes][volume] — Abstração do armazenamento de dados da sua aplicação
 
 Esses são só alguns dos objetos, existem vários outros, e alguns possuem várias classes, é impossível cobrir todos nesse artigo.
 
