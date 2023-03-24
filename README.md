@@ -2,6 +2,10 @@
 
 O Buteco Open Source é um blog feito por, e para pessoas que gostam de compartilhar suas experiências com software livre.
 
+## Arquivamento
+
+Este repositório contém a versão antiga do blog (butecopensource), a nova versão está em [buteco-tech/blog](https://github.com/buteco-tech/blog).
+
 ## Licenças
 
 ### Textos em artigos
